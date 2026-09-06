@@ -1,0 +1,195 @@
+[
+  {
+    "id": "A01",
+    "family": "HEV 별도 엔진클러치 작동유",
+    "members": [
+      {
+        "name": "기아 니로 SG2 2024 한국",
+        "source": "S29",
+        "ref_km": 40000,
+        "months": 24
+      },
+      {
+        "name": "현대 IONIQ AE 말레이시아 2024-11 서비스표",
+        "source": "S42",
+        "ref_km": 45000,
+        "months": 27
+      }
+    ],
+    "shared_decision": "기능항목공유·시장별원문보존. 두사례에4만km/24개월예방정책은각각원문보다늦지않음.",
+    "hardware_identity_proven": false,
+    "auto_select": "별도액추에이터/리저버 장착확인 + 해당정비지침매칭"
+  },
+  {
+    "id": "A02",
+    "family": "냉각수 최초/반복 계열",
+    "members": [
+      {
+        "name": "NQ5 2023 한국 해당엔진",
+        "source": "S01"
+      },
+      {
+        "name": "SG2 2024 한국 엔진/전기동력",
+        "source": "S29"
+      },
+      {
+        "name": "EV6 2022 안내",
+        "source": "S44"
+      },
+      {
+        "name": "IONIQ5 N 2025 일반회로",
+        "source": "S45"
+      }
+    ],
+    "shared_decision": "확인된회로에서최초20만/120개월,반복4만/24개월. 다른저전도회로제외.",
+    "hardware_identity_proven": false,
+    "auto_select": "장착회로·제품규격·원문적용연식"
+  },
+  {
+    "id": "A03",
+    "family": "VW Group DSG/S tronic 세부코드",
+    "members": [
+      {
+        "name": "DQ250 0D9",
+        "source": "S34",
+        "ref_miles": 40000,
+        "filter": "오일+필터"
+      },
+      {
+        "name": "DQ381 0GC",
+        "source": "S34",
+        "ref_miles": 80000,
+        "filter": "오일"
+      },
+      {
+        "name": "DQ400 0DD HEV",
+        "source": "S34",
+        "ref_miles": 40000,
+        "filter": "오일"
+      },
+      {
+        "name": "DQ500 0DL/0BH",
+        "source": "S34",
+        "ref_miles": 40000,
+        "filter": "오일"
+      },
+      {
+        "name": "DL501",
+        "source": "S34",
+        "ref_miles": 40000,
+        "filter": "오일+필터"
+      }
+    ],
+    "shared_decision": "코드가다르면독립규칙. 4만mile약6.44만km→5만;8만mile약12.87만→10만. 2019경공급망자료라현재정비지침교차확인조건.",
+    "hardware_identity_proven": "문서가코드별서비스구분입증_모델멤버십명단아님",
+    "auto_select": "실제변속기코드 + 최신차량정비지침일치"
+  },
+  {
+    "id": "A04",
+    "family": "ZF 승용 자동변속기",
+    "members": [
+      {
+        "name": "ZF 해당 승용변속기",
+        "source": "S04"
+      }
+    ],
+    "shared_decision": "공급사15만km권고. 사용자5만은별도예방정책. 유체/팬/필터개정은세부형식별.",
+    "hardware_identity_proven": false,
+    "auto_select": "ZF형식/오일키트적합확인. 브랜드만으로판정안함"
+  },
+  {
+    "id": "A05",
+    "family": "교체형 엔진에어필터",
+    "members": [
+      {
+        "name": "Bosch ANZ 일반 제품권고",
+        "source": "S39"
+      }
+    ],
+    "shared_decision": "일반3만/12개월 선택;분진은1.5만등단축지침. 공용차목록대신제품/환경조건.",
+    "auto_select": "교체형제품·차량지침충돌없음"
+  },
+  {
+    "id": "A06",
+    "family": "일반 캐빈필터",
+    "members": [
+      {
+        "name": "MANN+HUMMEL 공급사권고",
+        "source": "S40"
+      },
+      {
+        "name": "Bosch 공급사권고",
+        "source": "S41"
+      }
+    ],
+    "shared_decision": "1.5만/12개월. HEPA등특수필터제외.",
+    "auto_select": "일반교체형필터 + 해당제품지침"
+  },
+  {
+    "id": "A07",
+    "family": "보조배터리",
+    "members": [
+      {
+        "name": "VARTA 일반/EFB/AGM",
+        "source": "S46"
+      },
+      {
+        "name": "Tesla 납산/리튬 LV 분리",
+        "source": "S47"
+      }
+    ],
+    "shared_decision": "기술별진단·교체호환. 공통고정연한없음.",
+    "auto_select": "라벨·정격전압·기술형식·차량요구형식"
+  },
+  {
+    "id": "A08",
+    "family": "기상 LPG VSI",
+    "members": [
+      {
+        "name": "Prins VSI",
+        "source": "S20"
+      }
+    ],
+    "shared_decision": "순정LPI와별도. 설치세대매뉴얼과필터절차일치전숫자강제적용금지.",
+    "auto_select": "개조시스템모델/세대"
+  },
+  {
+    "id": "A09",
+    "family": "공랭 HEV 배터리 흡기필터",
+    "members": [
+      {
+        "name": "RAV4 HEV 일본 해당조건",
+        "source": "S17"
+      }
+    ],
+    "shared_decision": "해당자료25,000km청소. 교환주기내림함수는청소에자동적용하지않음. 액랭/필터미장착차제외.",
+    "auto_select": "실제흡기필터장착 + 제품절차"
+  },
+  {
+    "id": "A10",
+    "family": "부품번호별 산소센서",
+    "members": [
+      {
+        "name": "Bosch 0258017456",
+        "source": "S49",
+        "ref_km": 250000
+      }
+    ],
+    "shared_decision": "해당부품예방권고25만. 다른산소센서/NOx/차압센서는복사금지.",
+    "auto_select": "정확한부품또는공식대체품"
+  },
+  {
+    "id": "A11",
+    "family": "별도 저전도 냉각회로",
+    "members": [
+      {
+        "name": "IONIQ5 India October2022 manual",
+        "source": "S51",
+        "ref_km": 60000,
+        "months": 36
+      }
+    ],
+    "shared_decision": "해당장착회로/시장매칭후50,000km/36개월조기선택. 일반냉각수와독립이력.",
+    "auto_select": "회로명·냉각수규격·연식·시장정비표 일치"
+  }
+]

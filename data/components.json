@@ -1,0 +1,3118 @@
+[
+  {
+    "id": "ENG-01",
+    "system": "엔진·윤활",
+    "component": "엔진오일",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [
+      "P01"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [
+      "B01"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-02",
+    "system": "엔진·윤활",
+    "component": "엔진오일필터",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [
+      "P01"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [
+      "B01"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-03",
+    "system": "엔진·윤활",
+    "component": "드레인플러그·와셔",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [
+      "B01"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-04",
+    "system": "엔진·윤활",
+    "component": "오일팬·실링",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-05",
+    "system": "엔진·윤활",
+    "component": "밸브커버가스켓",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-06",
+    "system": "엔진·윤활",
+    "component": "크랭크축 오일씰",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-07",
+    "system": "엔진·윤활",
+    "component": "오일쿨러·씰",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-08",
+    "system": "엔진·윤활",
+    "component": "오일펌프·흡입스트레이너",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-09",
+    "system": "엔진·윤활",
+    "component": "PCV밸브·오일세퍼레이터",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-10",
+    "system": "엔진·윤활",
+    "component": "브리더호스",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-11",
+    "system": "엔진·윤활",
+    "component": "엔진마운트",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [
+      "P20"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [
+      "B14"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-12",
+    "system": "엔진·윤활",
+    "component": "헤드가스켓·헤드",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-13",
+    "system": "엔진·윤활",
+    "component": "피스톤링·실린더",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-14",
+    "system": "엔진·윤활",
+    "component": "크랭크·커넥팅로드 베어링",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-15",
+    "system": "엔진·윤활",
+    "component": "VVT솔레노이드·필터",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-16",
+    "system": "엔진·윤활",
+    "component": "오일압·오일레벨센서",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-01",
+    "system": "타이밍·보조구동",
+    "component": "건식 타이밍벨트",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [
+      "P14"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B02"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-02",
+    "system": "타이밍·보조구동",
+    "component": "습식 타이밍벨트",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [
+      "P14"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B02"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-03",
+    "system": "타이밍·보조구동",
+    "component": "타이밍체인",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B03"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-04",
+    "system": "타이밍·보조구동",
+    "component": "타이밍텐셔너·가이드·아이들러",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B02",
+      "B03"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-05",
+    "system": "타이밍·보조구동",
+    "component": "타이밍스프로킷·위상조절기",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B03"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-06",
+    "system": "타이밍·보조구동",
+    "component": "겉벨트",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [
+      "P19"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B04"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-07",
+    "system": "타이밍·보조구동",
+    "component": "겉벨트텐셔너·아이들러",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B04"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-08",
+    "system": "타이밍·보조구동",
+    "component": "크랭크댐퍼풀리",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B04"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-09",
+    "system": "타이밍·보조구동",
+    "component": "발전기 원웨이풀리",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [
+      "B04"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIM-10",
+    "system": "타이밍·보조구동",
+    "component": "오일펌프 구동벨트·체인",
+    "applicability": "내연기관; 실제 구동구조에 따라 선택",
+    "policy_ids": [
+      "P14"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "규격/소음·동기오류·마모·오염 진단, 재사용금지 키트부품은 해당 탈거절차. 체인 고정수명 생성금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-01",
+    "system": "연료·점화",
+    "component": "점화플러그",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [
+      "P13"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-02",
+    "system": "연료·점화",
+    "component": "점화코일·부츠",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-03",
+    "system": "연료·점화",
+    "component": "점화케이블",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-04",
+    "system": "연료·점화",
+    "component": "디젤 연료필터·수분분리기",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [
+      "P04"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-05",
+    "system": "연료·점화",
+    "component": "가솔린 연료필터·스트레이너",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-06",
+    "system": "연료·점화",
+    "component": "저압 연료펌프·제어기",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-07",
+    "system": "연료·점화",
+    "component": "고압 연료펌프",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-08",
+    "system": "연료·점화",
+    "component": "연료레일·압력조절밸브·센서",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-09",
+    "system": "연료·점화",
+    "component": "디젤 인젝터",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [
+      "B09"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-10",
+    "system": "연료·점화",
+    "component": "가솔린 인젝터",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [
+      "B09"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-11",
+    "system": "연료·점화",
+    "component": "인젝터 시트·씰·동와셔",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [
+      "B09"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-12",
+    "system": "연료·점화",
+    "component": "고압 연료파이프",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [
+      "B09"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-13",
+    "system": "연료·점화",
+    "component": "연료호스·리턴라인",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-14",
+    "system": "연료·점화",
+    "component": "연료탱크·밴드·주입구",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-15",
+    "system": "연료·점화",
+    "component": "연료캡·씰",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-16",
+    "system": "연료·점화",
+    "component": "캐니스터·퍼지/벤트밸브",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-17",
+    "system": "연료·점화",
+    "component": "예열플러그·제어기",
+    "applicability": "유종 및 분사방식별 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-01",
+    "system": "LPG·가스계통",
+    "component": "LPI 액상필터",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [
+      "P26"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-02",
+    "system": "LPG·가스계통",
+    "component": "LPI 탱크펌프·드라이버",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-03",
+    "system": "LPG·가스계통",
+    "component": "LPI 레귤레이터·인젝터",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-04",
+    "system": "LPG·가스계통",
+    "component": "기상LPG 필터",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [
+      "P26"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-05",
+    "system": "LPG·가스계통",
+    "component": "LPG 기화기·다이어프램",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-06",
+    "system": "LPG·가스계통",
+    "component": "가스탱크·멀티밸브",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-07",
+    "system": "LPG·가스계통",
+    "component": "충전구·필터·씰",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-08",
+    "system": "LPG·가스계통",
+    "component": "차단솔레노이드·긴급차단장치",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "LPG-09",
+    "system": "LPG·가스계통",
+    "component": "가스 배관·호스·접속부",
+    "applicability": "순정 액상 LPI와 기상 LPG 개조를 구분",
+    "policy_ids": [
+      "P22"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "전문가 누설·압력·차단기능 확인. 가스 냄새/누설의심은 즉시 대응; 달력 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-01",
+    "system": "흡기·과급",
+    "component": "엔진 에어필터",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [
+      "P02"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-02",
+    "system": "흡기·과급",
+    "component": "흡기덕트·진공호스",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-03",
+    "system": "흡기·과급",
+    "component": "스로틀바디",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-04",
+    "system": "흡기·과급",
+    "component": "흡기매니폴드·스월플랩",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-05",
+    "system": "흡기·과급",
+    "component": "흡기밸브 카본청소",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-06",
+    "system": "흡기·과급",
+    "component": "MAF·MAP·흡기온도센서",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-07",
+    "system": "흡기·과급",
+    "component": "터보 본체",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-08",
+    "system": "흡기·과급",
+    "component": "터보 액추에이터·부스트밸브",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-09",
+    "system": "흡기·과급",
+    "component": "터보 오일급유·리턴파이프",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AIR-10",
+    "system": "흡기·과급",
+    "component": "인터쿨러·차지호스",
+    "applicability": "내연기관; 터보/가변흡기는 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "흡기누설·부스트·오염·작동상태 진단. 청소/센서/과급기 교환은 원인분리.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-01",
+    "system": "배기·배출가스",
+    "component": "EGR밸브",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-02",
+    "system": "배기·배출가스",
+    "component": "EGR쿨러·바이패스밸브",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-03",
+    "system": "배기·배출가스",
+    "component": "EGR파이프·씰",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-04",
+    "system": "배기·배출가스",
+    "component": "DPF 재 축적·탈거세척",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-05",
+    "system": "배기·배출가스",
+    "component": "DPF 본체",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-06",
+    "system": "배기·배출가스",
+    "component": "GPF 본체",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-07",
+    "system": "배기·배출가스",
+    "component": "DPF 차압센서·호스",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-08",
+    "system": "배기·배출가스",
+    "component": "배기온도센서",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-09",
+    "system": "배기·배출가스",
+    "component": "산소센서",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-10",
+    "system": "배기·배출가스",
+    "component": "NOx센서",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-11",
+    "system": "배기·배출가스",
+    "component": "SCR촉매·산화촉매",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-12",
+    "system": "배기·배출가스",
+    "component": "요소수",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-13",
+    "system": "배기·배출가스",
+    "component": "요소수 필터",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [
+      "P26"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-14",
+    "system": "배기·배출가스",
+    "component": "요소수펌프·히터·탱크센서",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-15",
+    "system": "배기·배출가스",
+    "component": "요소수 인젝터·배관",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-16",
+    "system": "배기·배출가스",
+    "component": "연료첨가식 DPF 첨가액·장치",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-17",
+    "system": "배기·배출가스",
+    "component": "배기매니폴드·가스켓",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "EXH-18",
+    "system": "배기·배출가스",
+    "component": "배기플렉시블·머플러·행거·방열판",
+    "applicability": "내연기관; DPF/GPF/SCR/EGR 실제 장착 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "차압·온도·재생/재축적·NOx/SCR·배선/누설을 분리. DPF재생과세척·교환 구별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-01",
+    "system": "냉각·열관리",
+    "component": "엔진 냉각수",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [
+      "P12"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [
+      "B05"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-02",
+    "system": "냉각·열관리",
+    "component": "인버터 냉각수",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [
+      "P12"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-03",
+    "system": "냉각·열관리",
+    "component": "구동배터리 냉각수",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [
+      "P17"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-04",
+    "system": "냉각·열관리",
+    "component": "저전도 냉각수",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [
+      "P17"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-05",
+    "system": "냉각·열관리",
+    "component": "기계식 워터펌프",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [
+      "P20"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [
+      "B02",
+      "B04",
+      "B05"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-06",
+    "system": "냉각·열관리",
+    "component": "전동 워터펌프·보조펌프",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [
+      "B05"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-07",
+    "system": "냉각·열관리",
+    "component": "서모스탯·통합열관리밸브",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [
+      "P20"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [
+      "B05"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-08",
+    "system": "냉각·열관리",
+    "component": "라디에이터",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [
+      "B05"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-09",
+    "system": "냉각·열관리",
+    "component": "보조탱크·압력캡",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [
+      "B05"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-10",
+    "system": "냉각·열관리",
+    "component": "냉각호스·플랜지·O링",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [
+      "P20"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [
+      "B05"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-11",
+    "system": "냉각·열관리",
+    "component": "냉각팬·모터·제어기",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-12",
+    "system": "냉각·열관리",
+    "component": "히터코어·히터호스",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-13",
+    "system": "냉각·열관리",
+    "component": "냉각수온센서",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-14",
+    "system": "냉각·열관리",
+    "component": "배터리 냉각판·칠러",
+    "applicability": "엔진/인버터/배터리 등 회로별 독립 자산",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "냉간 안전절차에 따른 누설·압력·온도제어·유량/농도 진단. 과열/누수는 즉시.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-01",
+    "system": "변속기·클러치",
+    "component": "ATF",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [
+      "P06"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B08"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-02",
+    "system": "변속기·클러치",
+    "component": "CVT·IVT오일",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [
+      "P15"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B08"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-03",
+    "system": "변속기·클러치",
+    "component": "습식DCT오일",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [
+      "P15"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B08"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-04",
+    "system": "변속기·클러치",
+    "component": "건식DCT 기어오일",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [
+      "P15"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B08"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-05",
+    "system": "변속기·클러치",
+    "component": "수동변속기오일",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [
+      "P15"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B08"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-06",
+    "system": "변속기·클러치",
+    "component": "HEV 동력분기 트랜스액슬오일",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [
+      "P15"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B08"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-07",
+    "system": "변속기·클러치",
+    "component": "변속기 오일필터·스트레이너",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B08"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-08",
+    "system": "변속기·클러치",
+    "component": "변속기 팬·가스켓·자석",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B08"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-09",
+    "system": "변속기·클러치",
+    "component": "변속기 냉각기·배관",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-10",
+    "system": "변속기·클러치",
+    "component": "밸브바디·솔레노이드·메카트로닉스",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-11",
+    "system": "변속기·클러치",
+    "component": "토크컨버터",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-12",
+    "system": "변속기·클러치",
+    "component": "클러치 디스크·커버",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B07"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-13",
+    "system": "변속기·클러치",
+    "component": "릴리스베어링·파일럿베어링",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B07"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-14",
+    "system": "변속기·클러치",
+    "component": "듀얼매스플라이휠",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B07"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-15",
+    "system": "변속기·클러치",
+    "component": "클러치 작동액",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [
+      "P26"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-16",
+    "system": "변속기·클러치",
+    "component": "클러치 마스터·슬레이브실린더",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B07"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TRN-17",
+    "system": "변속기·클러치",
+    "component": "변속기마운트·시프트링크",
+    "applicability": "AT/CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV 중 실제 구조",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일규격·누유·슬립·진동·작동압/오류 진단; 정상 내부부품을 연령만으로 교환하지 않음.",
+    "bundle_ids": [
+      "B14"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-01",
+    "system": "구동축·사륜·감속기",
+    "component": "전륜 디퍼렌셜오일",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [
+      "P16"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-02",
+    "system": "구동축·사륜·감속기",
+    "component": "후륜 디퍼렌셜오일",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [
+      "P16"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-03",
+    "system": "구동축·사륜·감속기",
+    "component": "트랜스퍼·PTU오일",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [
+      "P16"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-04",
+    "system": "구동축·사륜·감속기",
+    "component": "AWD 커플링오일·필터",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [
+      "P16"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-05",
+    "system": "구동축·사륜·감속기",
+    "component": "EV 감속기오일",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [
+      "P16"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-06",
+    "system": "구동축·사륜·감속기",
+    "component": "등속조인트·드라이브샤프트",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [
+      "B15"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-07",
+    "system": "구동축·사륜·감속기",
+    "component": "등속조인트부트·그리스",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [
+      "B15"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-08",
+    "system": "구동축·사륜·감속기",
+    "component": "프로펠러샤프트·유니버설조인트",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-09",
+    "system": "구동축·사륜·감속기",
+    "component": "센터서포트베어링·커플링",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-10",
+    "system": "구동축·사륜·감속기",
+    "component": "디퍼렌셜·액슬 오일씰",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "DRV-11",
+    "system": "구동축·사륜·감속기",
+    "component": "허브·휠베어링",
+    "applicability": "기계식2WD/AWD 또는 전기식 e-AWD; 없는 부품 제외",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "유격·소음·누유·부트손상·진동, 좌우/전후 위치별 확인. 침수는 해당장치 즉시점검.",
+    "bundle_ids": [
+      "B15"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-01",
+    "system": "제동",
+    "component": "브레이크액",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [
+      "P05"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-02",
+    "system": "제동",
+    "component": "브레이크패드",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [
+      "B11"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-03",
+    "system": "제동",
+    "component": "브레이크디스크",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [
+      "B11"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-04",
+    "system": "제동",
+    "component": "브레이크드럼·슈",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-05",
+    "system": "제동",
+    "component": "캘리퍼 피스톤·씰",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-06",
+    "system": "제동",
+    "component": "캘리퍼 슬라이드핀·부트·윤활",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [
+      "B11"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-07",
+    "system": "제동",
+    "component": "브레이크호스·금속배관",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-08",
+    "system": "제동",
+    "component": "마스터실린더",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-09",
+    "system": "제동",
+    "component": "브레이크부스터·진공펌프·호스",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-10",
+    "system": "제동",
+    "component": "전동 부스터·압력축압기",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-11",
+    "system": "제동",
+    "component": "ABS·ESC 모듈·휠속도센서",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-12",
+    "system": "제동",
+    "component": "주차브레이크 케이블·슈",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BRK-13",
+    "system": "제동",
+    "component": "EPB 액추에이터",
+    "applicability": "전 차량; 회생제동/EPB/진공방식 별도",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "마찰재/디스크 제조사한계 실측·부식/고착·누설·작동이상. 거리도래까지 기다리지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-01",
+    "system": "현가·조향",
+    "component": "쇼크업소버·스트럿",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [
+      "P18"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [
+      "B06"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-02",
+    "system": "현가·조향",
+    "component": "스트럿마운트·베어링",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [
+      "B06"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-03",
+    "system": "현가·조향",
+    "component": "범프스톱·더스트부트",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [
+      "B06"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-04",
+    "system": "현가·조향",
+    "component": "코일스프링",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-05",
+    "system": "현가·조향",
+    "component": "로워암·어퍼암·부싱",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [
+      "P20"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [
+      "B13"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-06",
+    "system": "현가·조향",
+    "component": "볼조인트",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [
+      "B13"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-07",
+    "system": "현가·조향",
+    "component": "스태빌라이저링크·부싱",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-08",
+    "system": "현가·조향",
+    "component": "트레일링암·리어링크·부싱",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [
+      "P20"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [
+      "B13"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-09",
+    "system": "현가·조향",
+    "component": "서브프레임·마운팅부싱",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-10",
+    "system": "현가·조향",
+    "component": "타이로드엔드·랙엔드·부트",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [
+      "B13"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-11",
+    "system": "현가·조향",
+    "component": "스티어링랙·컬럼·조인트",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-12",
+    "system": "현가·조향",
+    "component": "EPS모터·토크센서·커플러",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-13",
+    "system": "현가·조향",
+    "component": "파워스티어링오일",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [
+      "P26"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-14",
+    "system": "현가·조향",
+    "component": "파워스티어링펌프·호스",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-15",
+    "system": "현가·조향",
+    "component": "에어서스펜션 벨로즈",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-16",
+    "system": "현가·조향",
+    "component": "에어서스펜션 압축기·드라이어",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-17",
+    "system": "현가·조향",
+    "component": "에어서스 밸브블록·배관·차고센서",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "SUS-18",
+    "system": "현가·조향",
+    "component": "전자제어댐퍼·배선",
+    "applicability": "코일/에어/전자제어 서스펜션; EPS/유압 구분",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "리프트유격·부싱찢김·누유·주행특성/감쇠 확인. 좌우대칭·정렬 필요성 검토.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-01",
+    "system": "타이어·휠",
+    "component": "주행 타이어",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [
+      "P09"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [
+      "B12"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-02",
+    "system": "타이어·휠",
+    "component": "스페어타이어",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [
+      "P09"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-03",
+    "system": "타이어·휠",
+    "component": "타이어 위치교환",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [
+      "P07"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-04",
+    "system": "타이어·휠",
+    "component": "휠얼라인먼트",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [
+      "B12",
+      "B13"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-05",
+    "system": "타이어·휠",
+    "component": "휠밸런스",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [
+      "B12"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-06",
+    "system": "타이어·휠",
+    "component": "밸브스템·TPMS씰",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [
+      "B12"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-07",
+    "system": "타이어·휠",
+    "component": "TPMS센서·배터리",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-08",
+    "system": "타이어·휠",
+    "component": "휠·휠스터드·너트",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [
+      "B15"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "TIR-09",
+    "system": "타이어·휠",
+    "component": "타이어 수리용 실란트",
+    "applicability": "전 차량; 스페어/실란트 장착시",
+    "policy_ids": [
+      "P25"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "제조일·홈깊이·손상·편마모·공기압 확인. 타이어/휠 제조사한계 우선.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-01",
+    "system": "저전압 전기·시동·편의",
+    "component": "저전압 보조배터리",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [
+      "P08",
+      "P21"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-02",
+    "system": "저전압 전기·시동·편의",
+    "component": "배터리단자·접지선·IBS",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-03",
+    "system": "저전압 전기·시동·편의",
+    "component": "발전기·레귤레이터",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-04",
+    "system": "저전압 전기·시동·편의",
+    "component": "스타터모터·솔레노이드",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-05",
+    "system": "저전압 전기·시동·편의",
+    "component": "퓨즈·릴레이·퓨즈박스",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-06",
+    "system": "저전압 전기·시동·편의",
+    "component": "배선하네스·커넥터·접지",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-07",
+    "system": "저전압 전기·시동·편의",
+    "component": "전조등·안개등·등화모듈",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-08",
+    "system": "저전압 전기·시동·편의",
+    "component": "램프 광량·렌즈·실링",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-09",
+    "system": "저전압 전기·시동·편의",
+    "component": "와이퍼모터·링크",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-10",
+    "system": "저전압 전기·시동·편의",
+    "component": "윈도레귤레이터·모터",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-11",
+    "system": "저전압 전기·시동·편의",
+    "component": "도어락 액추에이터",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-12",
+    "system": "저전압 전기·시동·편의",
+    "component": "키 배터리",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-13",
+    "system": "저전압 전기·시동·편의",
+    "component": "카메라·주차센서·ADAS보정",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-01",
+    "system": "하이브리드·고전압",
+    "component": "HSG·BSG 벨트",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [
+      "P11"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-02",
+    "system": "하이브리드·고전압",
+    "component": "HSG·BSG 텐셔너",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-03",
+    "system": "하이브리드·고전압",
+    "component": "HSG·BSG·구동모터",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-04",
+    "system": "하이브리드·고전압",
+    "component": "구동배터리 팩·모듈",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-05",
+    "system": "하이브리드·고전압",
+    "component": "배터리 흡기필터·흡입구",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [
+      "P23"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-06",
+    "system": "하이브리드·고전압",
+    "component": "배터리 공랭팬·덕트",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-07",
+    "system": "하이브리드·고전압",
+    "component": "인버터·컨버터·DC-DC",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-08",
+    "system": "하이브리드·고전압",
+    "component": "차량내장충전기·통합충전장치",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-09",
+    "system": "하이브리드·고전압",
+    "component": "고전압 배선·인터록·커넥터",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-10",
+    "system": "하이브리드·고전압",
+    "component": "접촉기·프리차지·고전압퓨즈",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-11",
+    "system": "하이브리드·고전압",
+    "component": "충전포트·잠금장치·외부케이블",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-12",
+    "system": "하이브리드·고전압",
+    "component": "배터리 하부보호판·팩실링",
+    "applicability": "HEV/PHEV/BEV/MHEV 실제 구성에만 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-01",
+    "system": "공조",
+    "component": "캐빈필터",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [
+      "P03"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-02",
+    "system": "공조",
+    "component": "HEPA·활성탄 보조필터",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [
+      "P24"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-03",
+    "system": "공조",
+    "component": "에어컨 냉매",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [
+      "B10"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-04",
+    "system": "공조",
+    "component": "압축기오일",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [
+      "B10"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-05",
+    "system": "공조",
+    "component": "에어컨압축기·클러치",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [
+      "B10"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-06",
+    "system": "공조",
+    "component": "리시버드라이어·어큐뮬레이터",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "탈거·수리사건연동",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [
+      "B10"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-07",
+    "system": "공조",
+    "component": "콘덴서",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [
+      "B10"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-08",
+    "system": "공조",
+    "component": "에바포레이터·배수관",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [
+      "B10"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-09",
+    "system": "공조",
+    "component": "팽창밸브·오리피스",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-10",
+    "system": "공조",
+    "component": "냉매배관·O링·서비스밸브",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [
+      "B10"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-11",
+    "system": "공조",
+    "component": "블로워모터·저항·제어기",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-12",
+    "system": "공조",
+    "component": "믹스도어·모드액추에이터",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "AC-13",
+    "system": "공조",
+    "component": "PTC히터·히트펌프밸브",
+    "applicability": "내연기관/전동압축기/히트펌프 구조 선택",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "성능·누설·작동압/온도·회로오염 진단. 규격냉매/오일·씰 교체는 수리절차.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-01",
+    "system": "차체·노화·안전장비",
+    "component": "하부·차대·부식방지층",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-02",
+    "system": "차체·노화·안전장비",
+    "component": "브레이크·연료배관 고정부",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-03",
+    "system": "차체·노화·안전장비",
+    "component": "도어·트렁크 웨더스트립",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-04",
+    "system": "차체·노화·안전장비",
+    "component": "선루프 배수·레일·씰",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-05",
+    "system": "차체·노화·안전장비",
+    "component": "차체·도어·카울 배수구",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-06",
+    "system": "차체·노화·안전장비",
+    "component": "힌지·래치·도어체커",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-07",
+    "system": "차체·노화·안전장비",
+    "component": "보닛·트렁크 가스리프터",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-08",
+    "system": "차체·노화·안전장비",
+    "component": "유리접착부·실링",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-09",
+    "system": "차체·노화·안전장비",
+    "component": "와이퍼고무",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-10",
+    "system": "차체·노화·안전장비",
+    "component": "워셔액·펌프·호스·노즐",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-11",
+    "system": "차체·노화·안전장비",
+    "component": "안전벨트·버클·리트랙터",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-12",
+    "system": "차체·노화·안전장비",
+    "component": "에어백·프리텐셔너·클록스프링",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-13",
+    "system": "차체·노화·안전장비",
+    "component": "시트레일·고정장치",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-14",
+    "system": "차체·노화·안전장비",
+    "component": "언더커버·휠하우스라이너·클립",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "BDY-15",
+    "system": "차체·노화·안전장비",
+    "component": "연료탱크·고전압팩 주변 방열/보호부",
+    "applicability": "전 차량; 장착 옵션별 적용",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "부식·누수/배수·잠금/고정·안전장치 이상 확인. 에어백 연령자동교환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-17",
+    "system": "엔진·윤활",
+    "component": "크랭크각·캠각센서",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ENG-18",
+    "system": "엔진·윤활",
+    "component": "타이밍커버·실링",
+    "applicability": "내연기관 장착(HEV/PHEV 포함)",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오일소모·누유·압력/시동/소음 이상을 분리 진단. 내부엔진·펌프는 고주행만으로 분해교환하지 않음.",
+    "bundle_ids": [
+      "B03"
+    ],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "ELE-14",
+    "system": "저전압 전기·시동·편의",
+    "component": "배터리 고정대·인슐레이션패드",
+    "applicability": "전 차량; 실제 전압/화학계/발전방식 확인",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "오류/부하·전압강하·충전/시동·배선/접지 원인분리. 전압한개로배터리교환확정금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-13",
+    "system": "하이브리드·고전압",
+    "component": "HEV 엔진클러치 액추에이터 작동유",
+    "applicability": "별도 리저버 장착 HEV",
+    "policy_ids": [
+      "P10"
+    ],
+    "decision": "별도주기정책참조",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "HV-14",
+    "system": "하이브리드·고전압",
+    "component": "HEV 엔진클러치 액추에이터·호스",
+    "applicability": "해당 HEV",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "장착구조와 전용진단. 고전압경고·절연/열관리 이상은 전문정비. 배터리보증기간을수명으로변환금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "FUE-18",
+    "system": "연료·점화",
+    "component": "연료탱크 에어필터",
+    "applicability": "별도 장착 차량",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "시동/실화·압력·리턴량·누설/오염으로 원인부품 확인. 진단값은 엔진별.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "계통진단은운영설계. 개별부품수명입증을주장하지않음",
+    "automatic_replacement": false
+  },
+  {
+    "id": "COO-15",
+    "system": "냉각·열관리",
+    "component": "액티브 에어플랩·그릴셔터·구동기",
+    "applicability": "실제장착차량",
+    "policy_ids": [],
+    "decision": "상태기반_공통고정교환주기미채택",
+    "trigger": "작동경고·고착·파손·비정상냉각 발생시 구동명령/피드백·이물·배선·링크를 정비절차로 진단. 차주교환사례만으로정기교환주기생성금지.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "C06 항목발견; 진단절차는설계권고이며개별수명입증아님",
+    "automatic_replacement": false,
+    "discovery_sources": [
+      "C06"
+    ]
+  }
+]

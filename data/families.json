@@ -1,0 +1,351 @@
+[
+  {
+    "id": "G01",
+    "name": "엔진 윤활",
+    "matching_fields": "내연기관·오일규격·운행조건",
+    "component_ids": [
+      "ENG-01",
+      "ENG-02"
+    ],
+    "policy_ids": [
+      "P01"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G02",
+    "name": "엔진 흡기필터",
+    "matching_fields": "필터 형식·분진환경",
+    "component_ids": [
+      "AIR-01"
+    ],
+    "policy_ids": [
+      "P02"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G03",
+    "name": "일반 공조필터",
+    "matching_fields": "일반/HEPA·장착위치",
+    "component_ids": [
+      "AC-01"
+    ],
+    "policy_ids": [
+      "P03"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G04",
+    "name": "디젤 연료필터",
+    "matching_fields": "교체형필터·수분분리 구조·연료품질",
+    "component_ids": [
+      "FUE-04"
+    ],
+    "policy_ids": [
+      "P04"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G05",
+    "name": "브레이크액",
+    "matching_fields": "유체규격·제동시스템·공통정비지침",
+    "component_ids": [
+      "BRK-01"
+    ],
+    "policy_ids": [
+      "P05"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G06",
+    "name": "토크컨버터 자동변속기",
+    "matching_fields": "변속기 계열·개정형·오일규격·교환법",
+    "component_ids": [
+      "TRN-01"
+    ],
+    "policy_ids": [
+      "P06"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G07",
+    "name": "타이어 위치교환",
+    "matching_fields": "전후규격·회전방향·휠 호환",
+    "component_ids": [
+      "TIR-03"
+    ],
+    "policy_ids": [
+      "P07"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G08",
+    "name": "저전압 배터리",
+    "matching_fields": "납산/EFB/AGM/리튬·충전제어·진단방법",
+    "component_ids": [
+      "ELE-01"
+    ],
+    "policy_ids": [
+      "P08",
+      "P21"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G09",
+    "name": "타이어 연령",
+    "matching_fields": "제조사·제조일·사용시작일",
+    "component_ids": [
+      "TIR-01",
+      "TIR-02"
+    ],
+    "policy_ids": [
+      "P09"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G10",
+    "name": "HEV 엔진클러치 작동유",
+    "matching_fields": "별도 유압식 엔진클러치 액추에이터·유체규격·공통정비지침",
+    "component_ids": [
+      "HV-13"
+    ],
+    "policy_ids": [
+      "P10"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G11",
+    "name": "HSG/BSG 벨트",
+    "matching_fields": "벨트구동 시동발전기 형식·벨트/텐셔너·가혹조건",
+    "component_ids": [
+      "HV-01"
+    ],
+    "policy_ids": [
+      "P11"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G12",
+    "name": "엔진/전기동력 냉각회로",
+    "matching_fields": "회로·냉각수규격·최초/반복 지침",
+    "component_ids": [
+      "COO-01",
+      "COO-02"
+    ],
+    "policy_ids": [
+      "P12"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G13",
+    "name": "점화플러그",
+    "matching_fields": "엔진/분사·플러그 부품계열·공통정비지침",
+    "component_ids": [
+      "FUE-01"
+    ],
+    "policy_ids": [
+      "P13"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G14",
+    "name": "타이밍/오일펌프 벨트",
+    "matching_fields": "구동대상·건식/습식·엔진/벨트개정·오일규격",
+    "component_ids": [
+      "TIM-01",
+      "TIM-02",
+      "TIM-10"
+    ],
+    "policy_ids": [
+      "P14"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G15",
+    "name": "기타 변속기",
+    "matching_fields": "CVT/IVT/습식DCT/건식DCT/MT/동력분기HEV별 세부계열",
+    "component_ids": [
+      "TRN-02",
+      "TRN-03",
+      "TRN-04",
+      "TRN-05",
+      "TRN-06"
+    ],
+    "policy_ids": [
+      "P15"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G16",
+    "name": "사륜/감속기 유체",
+    "matching_fields": "전후디퍼렌셜/PTU/커플링/EV감속기별 계열·유체",
+    "component_ids": [
+      "DRV-01",
+      "DRV-02",
+      "DRV-03",
+      "DRV-04",
+      "DRV-05"
+    ],
+    "policy_ids": [
+      "P16"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G17",
+    "name": "배터리/저전도 냉각회로",
+    "matching_fields": "실제 회로·제품규격·열관리 개정",
+    "component_ids": [
+      "COO-03",
+      "COO-04"
+    ],
+    "policy_ids": [
+      "P17"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G18",
+    "name": "쇼바/스트럿",
+    "matching_fields": "댐퍼 형식·장착부·사용조건",
+    "component_ids": [
+      "SUS-01"
+    ],
+    "policy_ids": [
+      "P18"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G19",
+    "name": "겉벨트",
+    "matching_fields": "건식 보조구동계·벨트/텐셔너·구동도",
+    "component_ids": [
+      "TIM-06"
+    ],
+    "policy_ids": [
+      "P19"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G20",
+    "name": "장기 동시정비 검토",
+    "matching_fields": "부품별 장착이력·노화·실제 공임공유",
+    "component_ids": [
+      "ENG-11",
+      "COO-05",
+      "COO-07",
+      "COO-10",
+      "SUS-05",
+      "SUS-08"
+    ],
+    "policy_ids": [
+      "P20"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G21",
+    "name": "가스연료 배관",
+    "matching_fields": "순정LPI/기상LPG·누설검사 지침",
+    "component_ids": [
+      "LPG-09"
+    ],
+    "policy_ids": [
+      "P22"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G22",
+    "name": "구동배터리 공랭필터",
+    "matching_fields": "공랭 흡기필터 장착·필터계열·환경",
+    "component_ids": [
+      "HV-05"
+    ],
+    "policy_ids": [
+      "P23"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G23",
+    "name": "특수 공조필터",
+    "matching_fields": "HEPA/활성탄·필터계열·공통정비지침",
+    "component_ids": [
+      "AC-02"
+    ],
+    "policy_ids": [
+      "P24"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G24",
+    "name": "실란트",
+    "matching_fields": "제품 유효기간·사용이력",
+    "component_ids": [
+      "TIR-09"
+    ],
+    "policy_ids": [
+      "P25"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  },
+  {
+    "id": "G25",
+    "name": "기타 유체/필터",
+    "matching_fields": "클러치액/유압조향/LPG필터/요소수필터 각각 별도 하위계열",
+    "component_ids": [
+      "TRN-15",
+      "SUS-13",
+      "LPG-01",
+      "LPG-04",
+      "EXH-13"
+    ],
+    "policy_ids": [
+      "P26"
+    ],
+    "group_is_ui_category_not_equivalence_proof": true,
+    "membership_policy": "상위분류는부품동일성증명이아님. applications.json 사례의조건과실제장착을매칭. 불일치/미확인은자동숫자추천보류."
+  }
+]

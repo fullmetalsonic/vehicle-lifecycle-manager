@@ -1,0 +1,728 @@
+[
+  {
+    "id": "P01",
+    "component_ids": [
+      "ENG-01",
+      "ENG-02"
+    ],
+    "action": "교환",
+    "km": 10000,
+    "months": 12,
+    "basis": "개인설정_공통앱선택기준",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "condition": "내연기관. 더 짧은 제조사/가혹조건 발견시 충돌표시; 개인설정 몰래덮어쓰기 금지.",
+    "family_id": "G01",
+    "status": "개인정책보존",
+    "source_scope_note": "내연기관. 더 짧은 제조사/가혹조건 발견시 충돌표시; 개인설정 몰래덮어쓰기 금지.",
+    "application_scope": "내연기관. 더 짧은 제조사/가혹조건 발견시 충돌표시; 개인설정 몰래덮어쓰기 금지.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "scope": "내연기관. 더 짧은 제조사/가혹조건 발견시 충돌표시; 개인설정 몰래덮어쓰기 금지.",
+    "research_decision_closed": true,
+    "reference_km": 10000,
+    "friendly_km": 10000,
+    "original_months": 12,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P02",
+    "component_ids": [
+      "AIR-01"
+    ],
+    "action": "교환",
+    "km": 30000,
+    "months": 12,
+    "basis": "앱예방정책_수명입증아님",
+    "sources": [
+      "S39"
+    ],
+    "condition": "교체형 종이 엔진에어필터. Bosch ANZ 15,000~30,000km/12개월 범위 상단 선택. 분진·제품·차량의 더 짧은 기준 우선. 종전24개월후보 기각.",
+    "family_id": "G02",
+    "status": "공급사권고범위내선택",
+    "source_scope_note": "교체형 종이 엔진에어필터. Bosch ANZ 15,000~30,000km/12개월 범위 상단 선택. 분진·제품·차량의 더 짧은 기준 우선. 종전24개월후보 기각.",
+    "application_scope": "교체형 종이 엔진에어필터. Bosch ANZ 15,000~30,000km/12개월 범위 상단 선택. 분진·제품·차량의 더 짧은 기준 우선. 종전24개월후보 기각.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "reason": "3만/24개월 후보를 3만/12개월로수정. 분진은공식단축또는공급사범위하단적용.",
+    "scope": "교체형 종이 엔진에어필터. Bosch ANZ 15,000~30,000km/12개월 범위 상단 선택. 분진·제품·차량의 더 짧은 기준 우선. 종전24개월후보 기각.",
+    "research_decision_closed": true,
+    "reference_km": 30000,
+    "friendly_km": 30000,
+    "original_months": 12,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P03",
+    "component_ids": [
+      "AC-01"
+    ],
+    "action": "교환",
+    "km": 15000,
+    "months": 12,
+    "basis": "앱예방정책_월수는운영선택",
+    "sources": [
+      "S40",
+      "S41"
+    ],
+    "condition": "일반 캐빈필터. 특수필터는 별도규칙.",
+    "family_id": "G03",
+    "status": "공급사권고채택",
+    "source_scope_note": "일반 캐빈필터. 특수필터는 별도규칙.",
+    "application_scope": "일반 캐빈필터. 특수필터는 별도규칙.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "reason": "1.5만/12개월 직접근거확인.",
+    "scope": "일반 캐빈필터. 특수필터는 별도규칙.",
+    "research_decision_closed": true,
+    "reference_km": 15000,
+    "friendly_km": 15000,
+    "original_months": 12,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P04",
+    "component_ids": [
+      "FUE-04"
+    ],
+    "action": "교환",
+    "km": null,
+    "months": null,
+    "basis": "앱예방정책_수명입증아님",
+    "sources": [
+      "S01",
+      "S41"
+    ],
+    "condition": "디젤 교체형필터. 수분경고/오염 즉시. 해당 공급사/차량규격 우선.",
+    "family_id": "G04",
+    "status": "범용숫자기각_적용원문사용",
+    "source_scope_note": "디젤 교체형필터. 수분경고/오염 즉시. 해당 공급사/차량규격 우선.",
+    "application_scope": "디젤 교체형필터. 수분경고/오염 즉시. 해당 공급사/차량규격 우선.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "reason": "3만/24개월 공통근거없음. NQ5해당디젤6만 사례는 적용확인시친화값5만; 날짜임의추가안함.",
+    "scope": "디젤 교체형필터. 수분경고/오염 즉시. 해당 공급사/차량규격 우선.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P05",
+    "component_ids": [
+      "BRK-01"
+    ],
+    "action": "교환",
+    "km": 50000,
+    "months": 24,
+    "basis": "앱예방정책_상이한근거조합",
+    "sources": [
+      "S01",
+      "S16"
+    ],
+    "condition": "호환 브레이크액. 더 짧은 공식값 우선; 검사형OEM규칙과 앱예방형 구별.",
+    "family_id": "G05",
+    "status": "예방운영정책채택",
+    "source_scope_note": "호환 브레이크액. 더 짧은 공식값 우선; 검사형OEM규칙과 앱예방형 구별.",
+    "application_scope": "호환 브레이크액. 더 짧은 공식값 우선; 검사형OEM규칙과 앱예방형 구별.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "reason": "거리5만과기간2년은 서로다른근거를결합한예방정책. 단일제조사공식값으로표시금지. 특수유체제외.",
+    "scope": "호환 브레이크액. 더 짧은 공식값 우선; 검사형OEM규칙과 앱예방형 구별.",
+    "research_decision_closed": true,
+    "reference_km": 50000,
+    "friendly_km": 50000,
+    "original_months": 24,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P06",
+    "component_ids": [
+      "TRN-01"
+    ],
+    "action": "교환",
+    "km": 50000,
+    "months": null,
+    "basis": "개인설정_선택예방",
+    "sources": [
+      "S04"
+    ],
+    "condition": "일반 AT의 사용자 예방선택. 달력값 미설정. 규격·교환법 확인 필수; ZF 공식5만이라는 뜻 아님.",
+    "family_id": "G06",
+    "status": "개인정책보존",
+    "source_scope_note": "일반 AT의 사용자 예방선택. 달력값 미설정. 규격·교환법 확인 필수; ZF 공식5만이라는 뜻 아님.",
+    "application_scope": "일반 AT의 사용자 예방선택. 달력값 미설정. 규격·교환법 확인 필수; ZF 공식5만이라는 뜻 아님.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "scope": "일반 AT의 사용자 예방선택. 달력값 미설정. 규격·교환법 확인 필수; ZF 공식5만이라는 뜻 아님.",
+    "research_decision_closed": true,
+    "reference_km": 50000,
+    "friendly_km": 50000,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P07",
+    "component_ids": [
+      "TIR-03"
+    ],
+    "action": "위치교환",
+    "km": 10000,
+    "months": null,
+    "basis": "구성조건부",
+    "sources": [
+      "S03"
+    ],
+    "condition": "앞뒤 교환가능 타이어·휠구성에만. 방향/상이규격 제외.",
+    "family_id": "G07",
+    "status": "조건부채택",
+    "source_scope_note": "앞뒤 교환가능 타이어·휠구성에만. 방향/상이규격 제외.",
+    "application_scope": "앞뒤 교환가능 타이어·휠구성에만. 방향/상이규격 제외.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "scope": "앞뒤 교환가능 타이어·휠구성에만. 방향/상이규격 제외.",
+    "research_decision_closed": true,
+    "reference_km": 10000,
+    "friendly_km": 10000,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P08",
+    "component_ids": [
+      "ELE-01"
+    ],
+    "action": "상태검사",
+    "km": null,
+    "months": 12,
+    "basis": "공급사기반",
+    "sources": [
+      "S14"
+    ],
+    "condition": "납산/EFB/AGM 해당검사법. 리튬 저전압 배터리 진단법 별도.",
+    "family_id": "G08",
+    "status": "조건부채택",
+    "source_scope_note": "납산/EFB/AGM 해당검사법. 리튬 저전압 배터리 진단법 별도.",
+    "application_scope": "납산/EFB/AGM 해당검사법. 리튬 저전압 배터리 진단법 별도.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "scope": "납산/EFB/AGM 해당검사법. 리튬 저전압 배터리 진단법 별도.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": 12,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P09",
+    "component_ids": [
+      "TIR-01",
+      "TIR-02"
+    ],
+    "action": "제조연령상한교환",
+    "km": null,
+    "months": 120,
+    "basis": "공급사권고",
+    "sources": [
+      "S08"
+    ],
+    "condition": "제조일기준. 마모·손상·OEM조기한계 우선; 장착일로리셋금지.",
+    "family_id": "G09",
+    "status": "조건부채택",
+    "source_scope_note": "제조일기준. 마모·손상·OEM조기한계 우선; 장착일로리셋금지.",
+    "application_scope": "제조일기준. 마모·손상·OEM조기한계 우선; 장착일로리셋금지.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "scope": "제조일기준. 마모·손상·OEM조기한계 우선; 장착일로리셋금지.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": 120,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P10",
+    "component_ids": [
+      "HV-13"
+    ],
+    "action": "교환",
+    "km": 40000,
+    "months": 24,
+    "basis": "공식조건부",
+    "sources": [
+      "S29",
+      "S42"
+    ],
+    "condition": "별도 유압식 엔진클러치 작동유 장착HEV. SG22024 대표근거. 작동장치·유체규격·정비지침 공통성이 확인된 차량군에 공통적용; 차종별 재조사 불필요. 변속기명만같은경우 액추에이터공용성 확인.",
+    "requires_verified_component_family": true,
+    "family_id": "G10",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "별도 유압식 엔진클러치 작동유 장착HEV. SG22024 대표근거. 작동장치·유체규격·정비지침 공통성이 확인된 차량군에 공통적용; 차종별 재조사 불필요. 변속기명만같은경우 액추에이터공용성 확인.",
+    "application_scope": "차종명이 아니라 별도 유압식 엔진클러치 작동장치·유체규격·정비지침이 같은 하위계열. 같은 변속기명만으로 엔진클러치 계통까지 동일하다고 추론하지 않음.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "차종명이 아니라 별도 유압식 엔진클러치 작동장치·유체규격·정비지침이 같은 하위계열. 같은 변속기명만으로 엔진클러치 계통까지 동일하다고 추론하지 않음.",
+    "research_decision_closed": true,
+    "reference_km": 40000,
+    "friendly_km": 40000,
+    "original_months": 24,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P11",
+    "component_ids": [
+      "HV-01"
+    ],
+    "action": "교환",
+    "km": 45000,
+    "months": 24,
+    "basis": "공식조건부",
+    "sources": [
+      "S30"
+    ],
+    "condition": "SG22024 국내 지정가혹조건 HSG벨트. 모든HEV/BSG로 확대금지.",
+    "family_id": "G11",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "SG22024 국내 지정가혹조건 HSG벨트. 모든HEV/BSG로 확대금지.",
+    "application_scope": "HSG/BSG를 각각 실제 벨트·텐셔너 계열과 가혹조건에 따라 분리. 대표값은 국내 SG2 해당 가혹조건.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "HSG/BSG를 각각 실제 벨트·텐셔너 계열과 가혹조건에 따라 분리. 대표값은 국내 SG2 해당 가혹조건.",
+    "research_decision_closed": true,
+    "reference_km": 45000,
+    "friendly_km": 40000,
+    "original_months": 24,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P12",
+    "component_ids": [
+      "COO-01",
+      "COO-02"
+    ],
+    "action": "교환",
+    "km": 40000,
+    "months": 24,
+    "basis": "공식최초반복분리",
+    "sources": [
+      "S29"
+    ],
+    "condition": "SG22024 해당엔진/전기동력회로. 서로 독립자산.",
+    "first_km": 200000,
+    "first_months": 120,
+    "family_id": "G12",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "SG22024 해당엔진/전기동력회로. 서로 독립자산.",
+    "application_scope": "엔진냉각수와 전기동력냉각수는 같은 숫자여도 독립 회로/자산. 같은 액규격만으로 최초 수명까지 동일하다고 추론하지 않음.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "엔진냉각수와 전기동력냉각수는 같은 숫자여도 독립 회로/자산. 같은 액규격만으로 최초 수명까지 동일하다고 추론하지 않음.",
+    "research_decision_closed": true,
+    "reference_km": 40000,
+    "friendly_km": 40000,
+    "original_months": 24,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P13",
+    "component_ids": [
+      "FUE-01"
+    ],
+    "action": "교환",
+    "km": null,
+    "months": null,
+    "basis": "엔진·플러그별공식매칭",
+    "sources": [
+      "S01",
+      "S23",
+      "S29"
+    ],
+    "condition": "예: NQ5 G1.6T7만km, SG2 HEV15만km. 구조만으로단일값금지.",
+    "family_id": "G13",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "예: NQ5 G1.6T7만km, SG2 HEV15만km. 구조만으로단일값금지.",
+    "application_scope": "공용 엔진·플러그 계열 및 공통정비지침 단위. 가솔린/하이브리드라는 대분류만으로 병합하지 않음.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "공용 엔진·플러그 계열 및 공통정비지침 단위. 가솔린/하이브리드라는 대분류만으로 병합하지 않음.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P14",
+    "component_ids": [
+      "TIM-01",
+      "TIM-02",
+      "TIM-10"
+    ],
+    "action": "교환",
+    "km": null,
+    "months": null,
+    "basis": "구동계별공식매칭",
+    "sources": [
+      "S01",
+      "S28"
+    ],
+    "condition": "특히습식벨트/오일펌프벨트는 엔진코드와 최신절차 필요.",
+    "family_id": "G14",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "특히습식벨트/오일펌프벨트는 엔진코드와 최신절차 필요.",
+    "application_scope": "구동대상/건식·습식/벨트개정과 정비지침별 하위계열.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "구동대상/건식·습식/벨트개정과 정비지침별 하위계열.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P15",
+    "component_ids": [
+      "TRN-02",
+      "TRN-03",
+      "TRN-04",
+      "TRN-05",
+      "TRN-06"
+    ],
+    "action": "교환",
+    "km": null,
+    "months": null,
+    "basis": "변속기별공식매칭_예방설정가능",
+    "sources": [
+      "S19",
+      "S30",
+      "S34"
+    ],
+    "condition": "AT개인5만값 자동복사금지. 규격·구조확인후 개인예방값 선택.",
+    "family_id": "G15",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "AT개인5만값 자동복사금지. 규격·구조확인후 개인예방값 선택.",
+    "application_scope": "대분류는 화면용. CVT와 동력분기식 HEV, 습식과 건식DCT를 동일 계열로 병합하지 않음.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "대분류는 화면용. CVT와 동력분기식 HEV, 습식과 건식DCT를 동일 계열로 병합하지 않음.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P16",
+    "component_ids": [
+      "DRV-01",
+      "DRV-02",
+      "DRV-03",
+      "DRV-04",
+      "DRV-05"
+    ],
+    "action": "교환",
+    "km": null,
+    "months": null,
+    "basis": "구동장치별매칭_예방설정가능",
+    "sources": [
+      "S01",
+      "S02"
+    ],
+    "condition": "실제 장착/액규격 필요. eAWD에기계식트랜스퍼생성금지.",
+    "family_id": "G16",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "실제 장착/액규격 필요. eAWD에기계식트랜스퍼생성금지.",
+    "application_scope": "대분류는 화면용. 개별 디퍼렌셜·커플링·감속기마다 실제 부품계열 확인.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "대분류는 화면용. 개별 디퍼렌셜·커플링·감속기마다 실제 부품계열 확인.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P17",
+    "component_ids": [
+      "COO-03",
+      "COO-04"
+    ],
+    "action": "교환",
+    "km": null,
+    "months": null,
+    "basis": "회로·제품별공식매칭",
+    "sources": [
+      "S51",
+      "S44",
+      "S45"
+    ],
+    "condition": "회로와시장·연식 일치 필수. S51 저전도60,000km/36개월→선택50,000km/36개월; 일반회로최초200,000km/120개월·반복40,000km/24개월. 해외값의국내자동복사금지.",
+    "family_id": "G17",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "회로와시장·연식 일치 필수. S51 저전도60,000km/36개월→선택50,000km/36개월; 일반회로최초200,000km/120개월·반복40,000km/24개월. 해외값의국내자동복사금지.",
+    "application_scope": "일반/저전도 및 해당 회로를 구분한 공용 열관리계열.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "일반/저전도 및 해당 회로를 구분한 공용 열관리계열.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P18",
+    "component_ids": [
+      "SUS-01"
+    ],
+    "action": "정밀진단",
+    "km": 80000,
+    "months": null,
+    "basis": "공급사점검기준",
+    "sources": [
+      "S06"
+    ],
+    "condition": "사용거리8만 첫감쇠/주행·장착부진단. 이상시즉시.",
+    "repeat_km": null,
+    "repeat_months": null,
+    "family_id": "G18",
+    "status": "조건부채택",
+    "source_scope_note": "사용거리8만 첫감쇠/주행·장착부진단. 이상시즉시.",
+    "application_scope": "사용거리8만 첫감쇠/주행·장착부진단. 이상시즉시.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "scope": "사용거리8만 첫감쇠/주행·장착부진단. 이상시즉시.",
+    "research_decision_closed": true,
+    "reference_km": 80000,
+    "friendly_km": 80000,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P19",
+    "component_ids": [
+      "TIM-06"
+    ],
+    "action": "예방교환검토",
+    "km": 144840.96,
+    "months": null,
+    "basis": "앱예방선택_확정수명아님",
+    "sources": [
+      "S43"
+    ],
+    "condition": "건식보조벨트만. Gates의mile권고와별개로 보수적예약값선택; 고장/공식조기주기우선.",
+    "family_id": "G19",
+    "status": "공급사권고_친화값선택가능",
+    "source_scope_note": "건식보조벨트만. Gates의mile권고와별개로 보수적예약값선택; 고장/공식조기주기우선.",
+    "application_scope": "건식보조벨트만. Gates의mile권고와별개로 보수적예약값선택; 고장/공식조기주기우선.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "reason": "임의6년은삭제. 90,000mile원문을보존; 사용자친화교환권고10만km. 고유OEM기준우선.",
+    "scope": "건식보조벨트만. Gates의mile권고와별개로 보수적예약값선택; 고장/공식조기주기우선.",
+    "research_decision_closed": true,
+    "reference_km": 144840.96,
+    "friendly_km": 100000,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P20",
+    "component_ids": [
+      "ENG-11",
+      "COO-05",
+      "COO-07",
+      "COO-10",
+      "SUS-05",
+      "SUS-08"
+    ],
+    "action": "동시정비검토",
+    "km": null,
+    "months": null,
+    "basis": "앱장기정비상담시점_교환수명아님",
+    "sources": [
+      "S05",
+      "S31",
+      "S33",
+      "S37"
+    ],
+    "condition": "공임겹치는작업시 상태/교환이력/추가견적으로판단. 해당시점전문진단이 안전점검대체아님.",
+    "family_id": "G20",
+    "status": "일괄연령기각_사건기반채택",
+    "source_scope_note": "공임겹치는작업시 상태/교환이력/추가견적으로판단. 해당시점전문진단이 안전점검대체아님.",
+    "application_scope": "공임겹치는작업시 상태/교환이력/추가견적으로판단. 해당시점전문진단이 안전점검대체아님.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "reason": "12만/10년일괄기준기각. 동시분해·누유·유격·열관리진단과추가공임을기준으로선택.",
+    "scope": "공임겹치는작업시 상태/교환이력/추가견적으로판단. 해당시점전문진단이 안전점검대체아님.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P21",
+    "component_ids": [
+      "ELE-01"
+    ],
+    "action": "예방교환검토",
+    "km": null,
+    "months": null,
+    "basis": "앱예산검토시점_교환강제아님",
+    "sources": [
+      "S14",
+      "S46",
+      "S48"
+    ],
+    "condition": "납산계만; 검사결과·사용조건·시동실패위험과견적보고선택.",
+    "family_id": "G08",
+    "status": "일괄연령기각_종류별상태판정",
+    "source_scope_note": "납산계만; 검사결과·사용조건·시동실패위험과견적보고선택.",
+    "application_scope": "납산계만; 검사결과·사용조건·시동실패위험과견적보고선택.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "reason": "4년자동교환기각. 배터리유형별판정과납산계연례검사.",
+    "scope": "납산계만; 검사결과·사용조건·시동실패위험과견적보고선택.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P22",
+    "component_ids": [
+      "LPG-09"
+    ],
+    "action": "장비누설검사",
+    "km": 20000,
+    "months": null,
+    "basis": "공식조건부",
+    "sources": [
+      "S01"
+    ],
+    "condition": "NQ5순정LPI확인. 다른가스차는 장착시스템기준. 누설의심은즉시.",
+    "family_id": "G21",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "NQ5순정LPI확인. 다른가스차는 장착시스템기준. 누설의심은즉시.",
+    "application_scope": "가스 연료 방식·공용 배관/검사 지침 기준.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "가스 연료 방식·공용 배관/검사 지침 기준.",
+    "research_decision_closed": true,
+    "reference_km": 20000,
+    "friendly_km": 20000,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P23",
+    "component_ids": [
+      "HV-05"
+    ],
+    "action": "청소",
+    "km": 25000,
+    "months": null,
+    "basis": "공식조건부",
+    "sources": [
+      "S17"
+    ],
+    "condition": "해당RAV4공랭배터리조건. 미장착차제외.",
+    "family_id": "G22",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "해당RAV4공랭배터리조건. 미장착차제외.",
+    "application_scope": "공랭배터리 흡기계통이 공용이며 청소지침이 일치하는 계열.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "공랭배터리 흡기계통이 공용이며 청소지침이 일치하는 계열.",
+    "research_decision_closed": true,
+    "reference_km": 25000,
+    "friendly_km": 25000,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산",
+    "friendly_note": "청소는교환거리내림규칙대상아님. 원문25,000km보존;20,000km선택은별도사용자청소정책."
+  },
+  {
+    "id": "P24",
+    "component_ids": [
+      "AC-02"
+    ],
+    "action": "교환",
+    "km": null,
+    "months": 36,
+    "basis": "공식조건부",
+    "sources": [
+      "S03"
+    ],
+    "condition": "해당ModelY HEPA장착. 다른특수필터제조사매칭.",
+    "family_id": "G23",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "해당ModelY HEPA장착. 다른특수필터제조사매칭.",
+    "application_scope": "동일 필터계통과 공통정비지침이 확인된 차량군.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "동일 필터계통과 공통정비지침이 확인된 차량군.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": 36,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P25",
+    "component_ids": [
+      "TIR-09"
+    ],
+    "action": "유효기간교환",
+    "km": null,
+    "months": null,
+    "basis": "제품표기매칭",
+    "sources": [],
+    "condition": "실란트 용기 유효기간 또는 사용후 보충/교환.",
+    "family_id": "G24",
+    "status": "조건부채택",
+    "source_scope_note": "실란트 용기 유효기간 또는 사용후 보충/교환.",
+    "application_scope": "실란트 용기 유효기간 또는 사용후 보충/교환.",
+    "requires_family_match": false,
+    "automatic_application": false,
+    "scope": "실란트 용기 유효기간 또는 사용후 보충/교환.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  },
+  {
+    "id": "P26",
+    "component_ids": [
+      "TRN-15",
+      "SUS-13",
+      "LPG-01",
+      "LPG-04",
+      "EXH-13"
+    ],
+    "action": "교환",
+    "km": null,
+    "months": null,
+    "basis": "제품·차량별매칭",
+    "sources": [],
+    "condition": "서로다른유체/필터. 주기·규격확인전숫자생성금지.",
+    "family_id": "G25",
+    "status": "적용조건확정_대상매칭필수",
+    "source_scope_note": "서로다른유체/필터. 주기·규격확인전숫자생성금지.",
+    "application_scope": "이 행은 여러 계통의 상위 묶음일 뿐. 각 유체/필터의 하위계열과 주기를 독립 확정.",
+    "requires_family_match": true,
+    "automatic_application": false,
+    "scope": "이 행은 여러 계통의 상위 묶음일 뿐. 각 유체/필터의 하위계열과 주기를 독립 확정.",
+    "research_decision_closed": true,
+    "reference_km": null,
+    "friendly_km": null,
+    "original_months": null,
+    "friendly_rule": "교환기준만아래로맞춤_기간유지_개별교환일부터계산"
+  }
+]

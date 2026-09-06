@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "name": "실제 교환 기록과 주기표 기준 분리",
+  "fields": {
+    "actual_odometer_km": "실제계기판거리_원본보존",
+    "actual_service_date": "실제작업일_기간주기기준",
+    "schedule_mode": "actual 또는 aligned_slot",
+    "schedule_basis_km": "사용자가선택한이번정비기준거리",
+    "selected_interval_km": "이부품선택주기",
+    "source_interval_km": "해당조건원문주기_없으면null",
+    "alignment_offset_km": "schedule_basis_km-actual_odometer_km",
+    "selection_confirmed": "정렬은명시적선택필요",
+    "asset_id": "차량/부품/위치별개별자산",
+    "previous_event_id": "과거정비연결",
+    "change_history": "기준변경전후·사용자·시각"
+  },
+  "defaults": {
+    "schedule_mode": "actual",
+    "auto_align": false,
+    "nearby_suggestion_km": "min(1000,selected_interval_km*0.1)",
+    "suggestion_only": true,
+    "manual_slot_choice": true
+  },
+  "calculation": {
+    "actual": "actual_odometer_km+selected_interval_km",
+    "aligned": "schedule_basis_km+selected_interval_km",
+    "source_due": "actual_odometer_km+source_interval_km(자료있을때)",
+    "reminder_distance": "선택목표와확인된원문도래거리중이른값. 날짜도독립비교.",
+    "actual_usage_to_target": "target_km-actual_odometer_km",
+    "calendar": "actual_service_date+개월_거리정렬로늦추지않음"
+  },
+  "invariants": [
+    "정렬해도실제거리/작업일수정금지",
+    "최근3개관측거리추정은actual만사용",
+    "점검·청소·보충은교환시계초기화금지",
+    "정비기록저장과부품별다음주기설정을분리",
+    "묶음내실제교환부품만개별기준갱신",
+    "과거기록삽입시날짜순재계산하되나중의명시적기준선택을덮어쓰지않음",
+    "반복알림중복방지키는자산+실제교환이벤트+규칙버전",
+    "원문기한초과목표를기록하더라도기한경고/알림은숨기지않음"
+  ],
+  "examples": [
+    {
+      "actual": 49500,
+      "basis": 50000,
+      "interval": 50000,
+      "mode": "aligned_slot",
+      "target": 100000,
+      "actual_usage": 50500,
+      "source_interval": 60000,
+      "source_due": 109500,
+      "reminder": 100000
+    },
+    {
+      "actual": 49500,
+      "basis": 49500,
+      "interval": 50000,
+      "mode": "actual",
+      "target": 99500,
+      "actual_usage": 50000,
+      "source_interval": 60000,
+      "source_due": 109500,
+      "reminder": 99500
+    },
+    {
+      "actual": 49500,
+      "basis": 50000,
+      "interval": 50000,
+      "mode": "aligned_slot",
+      "target": 100000,
+      "actual_usage": 50500,
+      "source_interval": 50000,
+      "source_due": 99500,
+      "reminder": 99500
+    },
+    {
+      "actual": 50500,
+      "basis": 50000,
+      "interval": 50000,
+      "mode": "aligned_slot",
+      "target": 100000,
+      "actual_usage": 49500,
+      "source_interval": 60000,
+      "source_due": 110500,
+      "reminder": 100000
+    },
+    {
+      "actual": 83000,
+      "basis": 100000,
+      "interval": 50000,
+      "mode": "aligned_slot",
+      "target": 150000,
+      "actual_usage": 67000,
+      "source_interval": 60000,
+      "source_due": 143000,
+      "reminder": 143000
+    }
+  ],
+  "ui": "실제49,500km / 이번주기표50,000km / 차이+500km / 다음목표100,000km / 실제사용예정50,500km"
+}

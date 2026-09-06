@@ -1,0 +1,342 @@
+[
+  {
+    "id": "B01",
+    "name": "엔진오일",
+    "anchors": [
+      "ENG-01"
+    ],
+    "companions": [
+      "ENG-02",
+      "ENG-03"
+    ],
+    "trigger": "오일교환도래",
+    "condition": "필터·재사용금지 와셔는 해당 절차대로. 에어필터 별도수명.",
+    "labor": "필터·리프트 공정 확인",
+    "sources": [
+      "S01"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B02",
+    "name": "타이밍벨트",
+    "anchors": [
+      "TIM-01",
+      "TIM-02"
+    ],
+    "companions": [
+      "TIM-04",
+      "COO-05"
+    ],
+    "trigger": "벨트교환도래",
+    "condition": "벨트구동펌프 또는 실제접근공정 공유시. 습식벨트 전용절차.",
+    "labor": "타이밍 접근공임 1회",
+    "sources": [
+      "S05",
+      "S31",
+      "S28"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B03",
+    "name": "타이밍체인",
+    "anchors": [
+      "TIM-03"
+    ],
+    "companions": [
+      "TIM-04",
+      "TIM-05",
+      "ENG-18"
+    ],
+    "trigger": "체인수리결정",
+    "condition": "엔진별 키트·커버씰. 펌프·발전기 자동포함 금지.",
+    "labor": "전면커버 탈착 공유",
+    "sources": [
+      "S24"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B04",
+    "name": "겉벨트",
+    "anchors": [
+      "TIM-06"
+    ],
+    "companions": [
+      "TIM-07",
+      "TIM-08",
+      "TIM-09",
+      "COO-05"
+    ],
+    "trigger": "벨트교환도래",
+    "condition": "텐셔너/아이들러 권고 검토. 댐퍼·풀리·펌프 상태/구조 확인.",
+    "labor": "보조구동 접근 공유",
+    "sources": [
+      "S18",
+      "S31"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B05",
+    "name": "냉각계통",
+    "anchors": [
+      "COO-05",
+      "COO-06",
+      "COO-07",
+      "COO-08"
+    ],
+    "companions": [
+      "COO-10",
+      "COO-09",
+      "COO-01"
+    ],
+    "trigger": "누수·온도제어 수리",
+    "condition": "해당 회로 호스/씰 진단. 다른회로 혼합금지. 엔진없는차 엔진냉각수 제외.",
+    "labor": "동일회로 배출·충전 공유",
+    "sources": [
+      "S37",
+      "S05"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B06",
+    "name": "스트럿·쇼바",
+    "anchors": [
+      "SUS-01"
+    ],
+    "companions": [
+      "SUS-02",
+      "SUS-03"
+    ],
+    "trigger": "교환결정",
+    "condition": "동축 균형·마운트/베어링·보호키트 권고. 스프링/암 상태판정.",
+    "labor": "스프링 분해·필요정렬 1회",
+    "sources": [
+      "S33",
+      "S06"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B07",
+    "name": "클러치",
+    "anchors": [
+      "TRN-12"
+    ],
+    "companions": [
+      "TRN-13",
+      "TRN-14",
+      "TRN-16"
+    ],
+    "trigger": "클러치수리결정",
+    "condition": "CSC 장착형 동시교환권고. DMF 진단, 외장실린더 자동교환금지.",
+    "labor": "변속기 탈착 공유",
+    "sources": [
+      "S35",
+      "S26"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B08",
+    "name": "변속기 오일",
+    "anchors": [
+      "TRN-01",
+      "TRN-02",
+      "TRN-03",
+      "TRN-04",
+      "TRN-05",
+      "TRN-06"
+    ],
+    "companions": [
+      "TRN-07",
+      "TRN-08"
+    ],
+    "trigger": "오일교환도래",
+    "condition": "접근가능 필터/팬일체형만. 필터때문에 변속기 전부분해 금지.",
+    "labor": "팬·충전 중복견적 제외",
+    "sources": [
+      "S32",
+      "S34"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B09",
+    "name": "인젝터",
+    "anchors": [
+      "FUE-09",
+      "FUE-10"
+    ],
+    "companions": [
+      "FUE-11",
+      "FUE-12"
+    ],
+    "trigger": "인젝터탈거",
+    "condition": "재사용금지 씰/파이프 절차. 정상인젝터/펌프 전량교환금지.",
+    "labor": "탈거수량별 실링",
+    "sources": [
+      "S11"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B10",
+    "name": "냉매회로",
+    "anchors": [
+      "AC-05",
+      "AC-07",
+      "AC-08"
+    ],
+    "companions": [
+      "AC-06",
+      "AC-10",
+      "AC-03",
+      "AC-04"
+    ],
+    "trigger": "회로개방·오염수리",
+    "condition": "드라이어/씰/냉매·오일은 절차기준. 모든공조부품 동시교환아님.",
+    "labor": "동일회로 회수·진공·충전 중복확인",
+    "sources": [
+      "S09"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B11",
+    "name": "브레이크",
+    "anchors": [
+      "BRK-02",
+      "BRK-03"
+    ],
+    "companions": [
+      "BRK-06"
+    ],
+    "trigger": "실측교환필요",
+    "condition": "디스크 동축교환; 패드·핀 확인. 정상캘리퍼/ABS 자동교환금지.",
+    "labor": "휠·캘리퍼 접근 공유",
+    "sources": [
+      "S36"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B12",
+    "name": "타이어",
+    "anchors": [
+      "TIR-01"
+    ],
+    "companions": [
+      "TIR-06",
+      "TIR-05",
+      "TIR-04"
+    ],
+    "trigger": "타이어교환",
+    "condition": "밸브/씰·밸런스, 필요시정렬. TPMS본체 별도판정.",
+    "labor": "탈착·정렬 중복제외",
+    "sources": [
+      "S08"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B13",
+    "name": "하체·조향 정렬",
+    "anchors": [
+      "SUS-05",
+      "SUS-06",
+      "SUS-08",
+      "SUS-10"
+    ],
+    "companions": [
+      "TIR-04"
+    ],
+    "trigger": "하체수리결정",
+    "condition": "진단된 부품만. 정렬은 작업마무리 후.",
+    "labor": "정렬 재작업 방지",
+    "sources": [],
+    "grade": "공정효율설계_견적확인",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B14",
+    "name": "마운트",
+    "anchors": [
+      "ENG-11"
+    ],
+    "companions": [
+      "TRN-17"
+    ],
+    "trigger": "마운트교환결정",
+    "condition": "상대마운트 손상/접근 평가. 전량강제교환아님.",
+    "labor": "엔진지지 실제공유공임 확인",
+    "sources": [],
+    "grade": "공정효율설계_견적확인",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  },
+  {
+    "id": "B15",
+    "name": "허브·등속축",
+    "anchors": [
+      "DRV-11",
+      "DRV-06"
+    ],
+    "companions": [
+      "DRV-07",
+      "TIR-08"
+    ],
+    "trigger": "해당부품탈거",
+    "condition": "부트손상·일회용 너트 절차. 정상축/베어링 동반교환금지.",
+    "labor": "해당코너 접근 공유",
+    "sources": [
+      "S22"
+    ],
+    "grade": "출처+조건부설계",
+    "requires_quote": true,
+    "requires_consent": true,
+    "allow_delay_due_item": false
+  }
+]

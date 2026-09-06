@@ -1,0 +1,348 @@
+[
+  {
+    "id": "V01",
+    "component_ids": [
+      "FUE-04"
+    ],
+    "sources": [
+      "S01"
+    ],
+    "scope": "NQ5 2023 한국 D2.0 연료필터",
+    "reference_km": 60000,
+    "months": null,
+    "selected_km": 50000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V02",
+    "component_ids": [
+      "FUE-01"
+    ],
+    "sources": [
+      "S01"
+    ],
+    "scope": "NQ5 2023 한국 G1.6T 점화플러그",
+    "reference_km": 70000,
+    "months": null,
+    "selected_km": 50000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V03",
+    "component_ids": [
+      "FUE-01"
+    ],
+    "sources": [
+      "S29"
+    ],
+    "scope": "SG2 2024 한국 HEV 점화플러그",
+    "reference_km": 150000,
+    "months": null,
+    "selected_km": 150000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V04",
+    "component_ids": [
+      "TIM-01"
+    ],
+    "sources": [
+      "S01"
+    ],
+    "scope": "NQ5 2023 한국 D2.0 타이밍벨트",
+    "reference_km": 240000,
+    "months": null,
+    "selected_km": 200000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V05",
+    "component_ids": [
+      "TRN-04"
+    ],
+    "sources": [
+      "S30"
+    ],
+    "scope": "SG2 2024 한국 지정가혹조건 DCT",
+    "reference_km": 120000,
+    "months": null,
+    "selected_km": 100000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V06",
+    "component_ids": [
+      "DRV-02"
+    ],
+    "sources": [
+      "S02"
+    ],
+    "scope": "NQ5 2023 한국 해당가혹조건 후륜디퍼렌셜",
+    "reference_km": 120000,
+    "months": null,
+    "selected_km": 100000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V07",
+    "component_ids": [
+      "DRV-03"
+    ],
+    "sources": [
+      "S02"
+    ],
+    "scope": "NQ5 2023 한국 해당가혹조건 트랜스퍼",
+    "reference_km": 120000,
+    "months": null,
+    "selected_km": 100000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V08",
+    "component_ids": [
+      "HV-13"
+    ],
+    "sources": [
+      "S29"
+    ],
+    "scope": "SG2 2024 한국 별도 엔진클러치작동유",
+    "reference_km": 40000,
+    "months": 24,
+    "selected_km": 40000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V09",
+    "component_ids": [
+      "HV-13"
+    ],
+    "sources": [
+      "S42"
+    ],
+    "scope": "IONIQ AE 말레이시아 2024-11 서비스표",
+    "reference_km": 45000,
+    "months": 27,
+    "selected_km": 40000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V10",
+    "component_ids": [
+      "HV-01"
+    ],
+    "sources": [
+      "S30"
+    ],
+    "scope": "SG2 2024 한국 지정가혹조건 HSG",
+    "reference_km": 45000,
+    "months": 24,
+    "selected_km": 40000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V11",
+    "component_ids": [
+      "COO-04"
+    ],
+    "sources": [
+      "S51"
+    ],
+    "scope": "IONIQ5 India October2022 저전도회로",
+    "reference_km": 60000,
+    "months": 36,
+    "selected_km": 50000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V12",
+    "component_ids": [
+      "EXH-09"
+    ],
+    "sources": [
+      "S49"
+    ],
+    "scope": "Bosch 부품0258017456",
+    "reference_km": 250000,
+    "months": null,
+    "selected_km": 250000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V13",
+    "component_ids": [
+      "BDY-09"
+    ],
+    "sources": [
+      "S03"
+    ],
+    "scope": "ModelY 해당시장 와이퍼",
+    "reference_km": null,
+    "months": 12,
+    "selected_km": null,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V14",
+    "component_ids": [
+      "HV-05"
+    ],
+    "sources": [
+      "S17"
+    ],
+    "scope": "RAV4 2022-10 일본 HEV 해당조건",
+    "reference_km": 25000,
+    "months": null,
+    "selected_km": 25000,
+    "action": "청소",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님."
+  },
+  {
+    "id": "V15",
+    "component_ids": [
+      "TRN-03"
+    ],
+    "sources": [
+      "S34"
+    ],
+    "scope": "DQ250 0D9 TPS2019 UK 오일+필터",
+    "reference_km": 64373.76,
+    "months": null,
+    "selected_km": 50000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님.",
+    "original_miles": 40000
+  },
+  {
+    "id": "V16",
+    "component_ids": [
+      "TRN-03"
+    ],
+    "sources": [
+      "S34"
+    ],
+    "scope": "DQ381 0GC TPS2019 UK 오일",
+    "reference_km": 128747.52,
+    "months": null,
+    "selected_km": 100000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님.",
+    "original_miles": 80000
+  },
+  {
+    "id": "V17",
+    "component_ids": [
+      "TRN-03"
+    ],
+    "sources": [
+      "S34"
+    ],
+    "scope": "DQ400 0DD TPS2019 UK HEV 오일",
+    "reference_km": 64373.76,
+    "months": null,
+    "selected_km": 50000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님.",
+    "original_miles": 40000
+  },
+  {
+    "id": "V18",
+    "component_ids": [
+      "TRN-03"
+    ],
+    "sources": [
+      "S34"
+    ],
+    "scope": "DQ500 0DL/0BH TPS2019 UK 오일",
+    "reference_km": 64373.76,
+    "months": null,
+    "selected_km": 50000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님.",
+    "original_miles": 40000
+  },
+  {
+    "id": "V19",
+    "component_ids": [
+      "TRN-03"
+    ],
+    "sources": [
+      "S34"
+    ],
+    "scope": "DL501 TPS2019 UK 오일+필터",
+    "reference_km": 64373.76,
+    "months": null,
+    "selected_km": 50000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님.",
+    "original_miles": 40000
+  },
+  {
+    "id": "V20",
+    "component_ids": [
+      "TRN-02"
+    ],
+    "sources": [
+      "S19"
+    ],
+    "scope": "Nissan 2016 NV200택시/해당HEV 예외 CVT",
+    "reference_km": 96560.64,
+    "months": 72,
+    "selected_km": 50000,
+    "action": "교환",
+    "automatic_application": false,
+    "requires_exact_fitment_and_current_procedure": true,
+    "warning": "연식·시장·구조·정비조건 일치 확인 전 자동적용 금지. 선택거리 단축분과추가교환비용을표시. 달력값null은무기한보장이아님.",
+    "original_miles": 59999.99999999999
+  }
+]
