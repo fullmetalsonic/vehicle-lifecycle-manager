@@ -15,6 +15,13 @@
 | batteries.json | 저전압 보조배터리 종류·필드·진단/교체 제한 |
 | interval-rounding.json | 교환거리만 내림, 원문·기간 보존 |
 | service-alignment.json | 실제거리와 선택회차 분리 및 계산 예제 |
+| preventive-planning.json | 22개 예방계획: 참고범위·선택값·상담/교환·작업상속 |
+| preventive-sources.json | 추가 출처 S52–S70. 공급사·제조사·정비업체 자료 구별 |
+| research-closure.json | 직전 미결14개 검토결론·기각이유와 222항목 연결표 |
+
+`reference_range_km`의 상한 `null`은 상한 미제시다. 0km나 고정수명으로 해석하지 않는다. `inherit_target`은 해당 차량의 실제 선택값이 확인되어야 활성화하며 상속 순환을 허용하지 않는다. 수치가 없다는 이유로 교환기한을 생성하지 않는다.
+
+추가 예방계획은 기존 정책을 자동 덮어쓰지 않는다. 기존 P18의 진단정책과 PR03의 선택형 예방교환은 목적이 다르며 사용자가 선택한 정책만 활성화한다. P21의 일률4년교환 기각은 PR07의 근거표시·선택형4년 계획을 금지하는 뜻이 아니다.
 
 `research_decision_closed`는 숫자 후보의 채택/기각 결정을 마쳤다는 뜻이다. 해당 차량 적용 검증이나 개별 부품 수명 입증을 뜻하지 않는다. `automatic_application:false`는 그대로 유지해야 한다.
 

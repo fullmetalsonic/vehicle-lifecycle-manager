@@ -12,6 +12,8 @@
 
 ## 읽는 순서
 
+추가 조사 완료: [수치·적용조건·기각 이유와 관리 방법](docs/RESEARCH_COMPLETION.md). 예방계획을 22개로 확대해 23개 관리항목에 연결했고, 직전 미결14개를 모두 검토했습니다. 모든 부품의 범용 수명을 확정했다는 뜻은 아닙니다. [1차 보완 기록](docs/PREVENTIVE_SUPPLEMENT.md)도 보존합니다.
+
 1. [조사 결론과 제한](docs/RESEARCH.md)
 2. [앱 동작 명세](docs/APP_SPEC.md)
 3. [데이터 안내](docs/DATA_GUIDE.md)

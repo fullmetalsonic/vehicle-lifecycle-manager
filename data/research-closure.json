@@ -1,0 +1,1924 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-09-06",
+  "scope": "25년50만km공통관리데이터v1및직전14개추가수치검토",
+  "completion_definition": "목록/조건/출처종류/수치또는기각이유/관리행동/공임/시험을기록함. 222종개별수명입증이나전차종자동적용완료아님.",
+  "original_pending_ids": [
+    "TIM-03",
+    "TIM-05",
+    "FUE-06",
+    "FUE-07",
+    "FUE-09",
+    "FUE-10",
+    "DRV-11",
+    "COO-06",
+    "COO-07",
+    "AIR-07",
+    "EXH-01",
+    "EXH-04",
+    "EXH-05",
+    "EXH-10"
+  ],
+  "resolutions": [
+    {
+      "component_id": "TIM-03",
+      "rule_ids": [
+        "PR13"
+      ],
+      "source_ids": [
+        "S24"
+      ],
+      "decision": "공급사참고채택",
+      "operating_action": "차량엔진별매칭후선택. 일반FAQ를공식전차종주기로표시하지않음.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "TIM-05",
+      "rule_ids": [
+        "PR22"
+      ],
+      "source_ids": [
+        "S24"
+      ],
+      "decision": "작업연동채택",
+      "operating_action": "스프로킷은체인키트에연동; 위상조절기까지자동교환하지않음.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "FUE-06",
+      "rule_ids": [
+        "PR17"
+      ],
+      "source_ids": [
+        "S64"
+      ],
+      "decision": "업체참고채택",
+      "operating_action": "저압급유펌프만. 상한없는설계참고와실제수명구별.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "FUE-07",
+      "rule_ids": [],
+      "source_ids": [
+        "S67"
+      ],
+      "decision": "범용교환수치기각",
+      "operating_action": "펌프코드/구동부/오염영향이큼. 해당플랫플런저형은오일작업시제조절차검사. 연료필터작업에서오염확인하고증상시연료압진단; 금속분발견시전계통대응.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "FUE-09",
+      "rule_ids": [
+        "PR16"
+      ],
+      "source_ids": [
+        "S63",
+        "S11"
+      ],
+      "decision": "특정제품사례채택",
+      "operating_action": "구형5.9/LB7한정. 다른디젤은리턴량/누설/보정값만으로성급히확정하지않고해당시험기준확인.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "FUE-10",
+      "rule_ids": [],
+      "source_ids": [
+        "S68"
+      ],
+      "decision": "범용교환수치기각",
+      "operating_action": "3000mile문제발생가능은교환주기아님. 분사불균형/누설/실화/연료희석진단후세척또는교환선택. PFI/GDI구분.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "DRV-11",
+      "rule_ids": [
+        "PR14"
+      ],
+      "source_ids": [
+        "S61",
+        "S22"
+      ],
+      "decision": "공급사참고채택",
+      "operating_action": "접근불가SKF수치대신MOOG본문km참고채택.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "COO-06",
+      "rule_ids": [
+        "PR18"
+      ],
+      "source_ids": [
+        "S65"
+      ],
+      "decision": "특정제품사례채택",
+      "operating_action": "N52/N54대상. 다른전동펌프는유량/전류/통신/누수/냉각성능확인. 범용수명없음과미장착구별.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "COO-07",
+      "rule_ids": [
+        "PR19"
+      ],
+      "source_ids": [
+        "S65"
+      ],
+      "decision": "작업연동채택",
+      "operating_action": "인접서모스탯공임연동. 다른통합열관리모듈은개도/온도추종/누설진단; 동일수명복사금지.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "AIR-07",
+      "rule_ids": [
+        "PR15"
+      ],
+      "source_ids": [
+        "S62",
+        "S10"
+      ],
+      "decision": "업체참고채택",
+      "operating_action": "예산상담수치와교환확정분리. 급유/흡배기근본원인해결.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "EXH-01",
+      "rule_ids": [],
+      "source_ids": [
+        "S69"
+      ],
+      "decision": "범용교환수치기각",
+      "operating_action": "흡기/DPF정비상담시명령·실제작동/누설/전원/진공확인. 세척가능성평가후불량부품교환. 별도의발명된15만교환수명없음.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "EXH-04",
+      "rule_ids": [
+        "PR20"
+      ],
+      "source_ids": [
+        "S66",
+        "S25"
+      ],
+      "decision": "업체참고채택",
+      "operating_action": "세척상담기준일뿐. 측정된재/차압/유량과해당차절차우선.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "EXH-05",
+      "rule_ids": [
+        "PR21"
+      ],
+      "source_ids": [
+        "S66",
+        "S25"
+      ],
+      "decision": "업체참고채택",
+      "operating_action": "고정거리교환이아닌회복가능성판단. 세척후에도파손/미회복이면교환.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    },
+    {
+      "component_id": "EXH-10",
+      "rule_ids": [],
+      "source_ids": [
+        "S70"
+      ],
+      "decision": "범용교환수치기각",
+      "operating_action": "SCR진단시전원/통신/센서값타당성/오염원확인. 보증km·산업용센서시간을차량교환km로변환하지않음.",
+      "research_review_closed": true,
+      "vehicle_validation_complete": false
+    }
+  ],
+  "rejected_candidates": [
+    {
+      "url": "https://goldfarbinc.com/blogs/news/common-rail-pump-lifespan-mileage",
+      "reason": "CP3/CP4브랜드별수명표의표본·근거부족과형식일반화문제. 다른구조펌프로복사하지않음."
+    },
+    {
+      "url": "https://www.motortech.de/fileadmin/user_upload/manuals/MOTORTECH-Manual-NOxSensor-56.03.002-01.50.027-EN-2021-02-WEB.pdf",
+      "reason": "산업용센서시간·온도조건자료는승용차NOx교환거리근거아님."
+    }
+  ],
+  "coverage": [
+    {
+      "component_id": "ENG-01",
+      "policy_ids": [
+        "P01"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-02",
+      "policy_ids": [
+        "P01"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR08"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-11",
+      "policy_ids": [
+        "P20"
+      ],
+      "preventive_rule_ids": [
+        "PR01"
+      ],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-13",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-15",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-16",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-01",
+      "policy_ids": [
+        "P14"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-02",
+      "policy_ids": [
+        "P14"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR13"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR10",
+        "PR22"
+      ],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR22"
+      ],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-06",
+      "policy_ids": [
+        "P19"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIM-10",
+      "policy_ids": [
+        "P14"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-01",
+      "policy_ids": [
+        "P13"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-04",
+      "policy_ids": [
+        "P04"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR17"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR16"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-13",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-15",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-16",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-17",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR05"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-01",
+      "policy_ids": [
+        "P26"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-04",
+      "policy_ids": [
+        "P26"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "LPG-09",
+      "policy_ids": [
+        "P22"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-01",
+      "policy_ids": [
+        "P02"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR15"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AIR-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-01",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR20"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR21"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR12"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-13",
+      "policy_ids": [
+        "P26"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-15",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-16",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-17",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "EXH-18",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-01",
+      "policy_ids": [
+        "P12"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-02",
+      "policy_ids": [
+        "P12"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-03",
+      "policy_ids": [
+        "P17"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-04",
+      "policy_ids": [
+        "P17"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-05",
+      "policy_ids": [
+        "P20"
+      ],
+      "preventive_rule_ids": [
+        "PR09"
+      ],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR18"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-07",
+      "policy_ids": [
+        "P20"
+      ],
+      "preventive_rule_ids": [
+        "PR19"
+      ],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-10",
+      "policy_ids": [
+        "P20"
+      ],
+      "preventive_rule_ids": [
+        "PR04"
+      ],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-13",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-01",
+      "policy_ids": [
+        "P06"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-02",
+      "policy_ids": [
+        "P15"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-03",
+      "policy_ids": [
+        "P15"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-04",
+      "policy_ids": [
+        "P15"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-05",
+      "policy_ids": [
+        "P15"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-06",
+      "policy_ids": [
+        "P15"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-13",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-15",
+      "policy_ids": [
+        "P26"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-16",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TRN-17",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-01",
+      "policy_ids": [
+        "P16"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-02",
+      "policy_ids": [
+        "P16"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-03",
+      "policy_ids": [
+        "P16"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-04",
+      "policy_ids": [
+        "P16"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-05",
+      "policy_ids": [
+        "P16"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "DRV-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR14"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-01",
+      "policy_ids": [
+        "P05"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BRK-13",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-01",
+      "policy_ids": [
+        "P18"
+      ],
+      "preventive_rule_ids": [
+        "PR03"
+      ],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR11"
+      ],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR11"
+      ],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-05",
+      "policy_ids": [
+        "P20"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-08",
+      "policy_ids": [
+        "P20"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-13",
+      "policy_ids": [
+        "P26"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-15",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR02"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-16",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-17",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "SUS-18",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-01",
+      "policy_ids": [
+        "P09"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-02",
+      "policy_ids": [
+        "P09"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-03",
+      "policy_ids": [
+        "P07"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [
+        "PR06"
+      ],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "TIR-09",
+      "policy_ids": [
+        "P25"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-01",
+      "policy_ids": [
+        "P08",
+        "P21"
+      ],
+      "preventive_rule_ids": [
+        "PR07"
+      ],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-13",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-01",
+      "policy_ids": [
+        "P11"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-05",
+      "policy_ids": [
+        "P23"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-01",
+      "policy_ids": [
+        "P03"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-02",
+      "policy_ids": [
+        "P24"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "탈거·수리사건연동",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "AC-13",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-01",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-02",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-03",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-04",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-05",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-06",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-07",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-08",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-09",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-10",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-11",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-12",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-13",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "BDY-15",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-17",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ENG-18",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-13",
+      "policy_ids": [
+        "P10"
+      ],
+      "preventive_rule_ids": [],
+      "baseline_decision": "별도주기정책참조",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "HV-14",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "FUE-18",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "COO-15",
+      "policy_ids": [],
+      "preventive_rule_ids": [],
+      "baseline_decision": "상태기반_공통고정교환주기미채택",
+      "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    }
+  ],
+  "reopen_when": [
+    "매칭차량의제조사표/엔진코드/실제부품정보확보",
+    "해당구조의신뢰도높은수명자료확보",
+    "주기충돌/부품개량/리콜확인"
+  ],
+  "not_implemented": [
+    "앱",
+    "영수증인식",
+    "실차매칭엔진",
+    "알림서버"
+  ]
+}

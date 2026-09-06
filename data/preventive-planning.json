@@ -1,0 +1,610 @@
+{
+  "schema_version": "1.2",
+  "status": "공통관리체계_v1_추가수치검토종료_범용수명확정아님",
+  "rules": [
+    {
+      "id": "PR01",
+      "component_ids": [
+        "ENG-11"
+      ],
+      "name": "일반 고무 엔진마운트",
+      "sources": [
+        "S55"
+      ],
+      "reference_range_km": null,
+      "reference_range_months": [
+        60,
+        84
+      ],
+      "planning_km": null,
+      "planning_months": 60,
+      "action": "예방교환상담",
+      "scope": "일반고무마운트",
+      "note": "5년부터교환예산/견적준비. 처짐·균열·진동과공임판단후교환; 5년의무아님. 유압/능동형은이범위자동복사금지.",
+      "bundle_ids": [
+        "B14"
+      ],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR02",
+      "component_ids": [
+        "SUS-15"
+      ],
+      "name": "에어스프링·벨로즈",
+      "sources": [
+        "S53"
+      ],
+      "reference_range_km": [
+        128747.52,
+        160934.4
+      ],
+      "reference_range_months": [
+        72,
+        120
+      ],
+      "planning_km": 100000,
+      "planning_months": 72,
+      "action": "예방교환상담",
+      "scope": "고무벨로즈장착 에어서스",
+      "note": "10만km선택은원문범위시작보다약2.9만km이름. 6년과이른쪽에서견적/기밀상태판단. 센서·컴퓨터일괄교환금지.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR03",
+      "component_ids": [
+        "SUS-01"
+      ],
+      "name": "쇼크업소버·스트럿",
+      "sources": [
+        "S52",
+        "S06"
+      ],
+      "reference_range_km": [
+        80000,
+        80000
+      ],
+      "reference_range_months": null,
+      "planning_km": 50000,
+      "planning_months": null,
+      "action": "예방교환선택",
+      "scope": "일반쇼바·스트럿_개별지침우선",
+      "note": "원문8만 유지옵션도제공. 5만은쉬운주기요청에따른조기선택이지수명아님. 50만km거리만비교시8만6회→5만10회로비용증가. 10만으로늦추지않음.",
+      "bundle_ids": [
+        "B06"
+      ],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR04",
+      "component_ids": [
+        "COO-10"
+      ],
+      "name": "일반 냉각호스",
+      "sources": [
+        "S54"
+      ],
+      "reference_range_km": null,
+      "reference_range_months": [
+        48,
+        48
+      ],
+      "planning_km": null,
+      "planning_months": 48,
+      "action": "예방교환선택",
+      "scope": "통상엔진냉각 고무호스",
+      "note": "플라스틱전체회로·배터리저전도회로로일괄확대금지. 워터펌프/서모스탯탈거시상태·경과연수·추가공임검토.",
+      "bundle_ids": [
+        "B05"
+      ],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR05",
+      "component_ids": [
+        "FUE-17"
+      ],
+      "name": "디젤 예열플러그",
+      "sources": [
+        "S56"
+      ],
+      "reference_range_km": [
+        100000,
+        200000
+      ],
+      "reference_range_months": null,
+      "planning_km": 100000,
+      "planning_months": null,
+      "action": "예방교환선택",
+      "scope": "디젤예열플러그_제어기는별도",
+      "note": "범위하단10만선택. 단선/시동불량시조기대응. 고착·탈거파손위험과형식별절차검토후교환. 제어기까지일괄교환하지않음.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR06",
+      "component_ids": [
+        "TIR-07"
+      ],
+      "name": "TPMS 센서 내장배터리",
+      "sources": [
+        "S57"
+      ],
+      "reference_range_km": [
+        240000,
+        240000
+      ],
+      "reference_range_months": [
+        120,
+        120
+      ],
+      "planning_km": 200000,
+      "planning_months": 120,
+      "action": "동시교환상담",
+      "scope": "해당GM문서대상TPMS_다른센서자동적용금지",
+      "note": "설계수명을예방교환주기로오인금지. 20만/10년은앱견적준비시점. 타이어탈착시센서시험·기존나이·공임을보고선택.",
+      "bundle_ids": [
+        "B12"
+      ],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR07",
+      "component_ids": [
+        "ELE-01"
+      ],
+      "name": "시동용 납산 보조배터리",
+      "sources": [
+        "S58",
+        "S14"
+      ],
+      "reference_range_km": null,
+      "reference_range_months": [
+        36,
+        60
+      ],
+      "planning_km": null,
+      "planning_months": 48,
+      "action": "예방교환선택",
+      "scope": "시동용납산계_일반참고_리튬/HV제외",
+      "note": "3~5년참고범위내4년선택가능. 기존일률4년금지와구별: 선택사항이며정상시험결과도함께표시. AGM/EFB라서몇년추가한다는추론금지.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR08",
+      "component_ids": [
+        "ENG-09"
+      ],
+      "name": "독립 교체형 PCV 밸브",
+      "sources": [
+        "S59",
+        "S60"
+      ],
+      "reference_range_km": [
+        48280.32,
+        96560.64
+      ],
+      "reference_range_months": null,
+      "planning_km": 40000,
+      "planning_months": null,
+      "action": "조건부예방교환선택",
+      "scope": "두Subaru딜러메뉴의독립PCV교환사례",
+      "note": "3~6만mile은업체간정책차이지부품수명분포아님. 선택4만은짧은업체주기이하. 디젤오일세퍼레이터/밸브커버일체형으로복사금지.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR09",
+      "component_ids": [
+        "COO-05"
+      ],
+      "name": "타이밍벨트 구동 워터펌프",
+      "inherit_target": "selected_vehicle_timing_belt",
+      "sources": [
+        "S05"
+      ],
+      "reference_range_km": null,
+      "reference_range_months": null,
+      "planning_km": null,
+      "planning_months": null,
+      "action": "동시교환",
+      "scope": "타이밍벨트로실제구동되는펌프",
+      "note": "해당차량의벨트교환목표를상속. 예:벨트목표10만이면펌프도10만준비; 고유펌프수명10만주장아님. 체인구동/전동펌프제외.",
+      "bundle_ids": [
+        "B02"
+      ],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "관련작업의선택시점을상속"
+    },
+    {
+      "id": "PR10",
+      "component_ids": [
+        "TIM-04"
+      ],
+      "name": "타이밍벨트 텐셔너·아이들러",
+      "inherit_target": "selected_vehicle_timing_belt",
+      "sources": [
+        "S31"
+      ],
+      "reference_range_km": null,
+      "reference_range_months": null,
+      "planning_km": null,
+      "planning_months": null,
+      "action": "동시교환",
+      "scope": "타이밍벨트키트부품",
+      "note": "해당키트절차에따라벨트선택주기상속. 같은카탈로그ID안의체인가이드에자동복사금지.",
+      "bundle_ids": [
+        "B02"
+      ],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "관련작업의선택시점을상속"
+    },
+    {
+      "id": "PR11",
+      "component_ids": [
+        "SUS-02",
+        "SUS-03"
+      ],
+      "name": "스트럿마운트·보호키트",
+      "inherit_target": "PR03",
+      "sources": [
+        "S33"
+      ],
+      "reference_range_km": null,
+      "reference_range_months": null,
+      "planning_km": null,
+      "planning_months": null,
+      "action": "동시교환",
+      "scope": "스트럿탈거시해당마운트·베어링·부트",
+      "note": "PR03실제선택목표를상속하되개별상태/제조사재사용절차확인. 독립5만수명을부여하지않음.",
+      "bundle_ids": [
+        "B06"
+      ],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "관련작업의선택시점을상속"
+    },
+    {
+      "id": "PR12",
+      "component_ids": [
+        "EXH-09"
+      ],
+      "name": "부품번호별 산소센서",
+      "sources": [
+        "S49"
+      ],
+      "reference_range_km": [
+        250000,
+        250000
+      ],
+      "reference_range_months": null,
+      "planning_km": 250000,
+      "planning_months": null,
+      "action": "조건부예방교환선택",
+      "scope": "Bosch0258017456 또는공식확인대체품",
+      "note": "25만공급사권고. 산소센서전체/NOx/DPF차압센서로복사금지.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "단일출처또는관련출처군_통계수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획"
+    },
+    {
+      "id": "PR13",
+      "component_ids": [
+        "TIM-03"
+      ],
+      "name": "타이밍체인",
+      "sources": [
+        "S24"
+      ],
+      "reference_range_km": [
+        160934.4,
+        160934.4
+      ],
+      "reference_range_months": null,
+      "planning_km": 150000,
+      "planning_months": null,
+      "action": "예방교환상담",
+      "scope": "체인장착차량_엔진별지침확인후선택",
+      "note": "Gates FAQ10만mile일반설명에서15만선택. 13만mile이상사용가능설명도있음. 모든체인15만의무교환아님; 소음/동기오차/오일관리우선.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획",
+      "reference_semantics": "공급사일반FAQ_고정수명아님"
+    },
+    {
+      "id": "PR14",
+      "component_ids": [
+        "DRV-11"
+      ],
+      "name": "허브·휠베어링",
+      "sources": [
+        "S61",
+        "S22"
+      ],
+      "reference_range_km": [
+        136000,
+        160000
+      ],
+      "reference_range_months": null,
+      "planning_km": 100000,
+      "planning_months": null,
+      "action": "예방교환상담",
+      "scope": "도로차량휠베어링_부품별확인",
+      "note": "10만은13.6만하단보다이른상담/예산준비. 유격·소음·손상에따라교환; 4개일괄교환명령아님.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획",
+      "reference_semantics": "업체참고치"
+    },
+    {
+      "id": "PR15",
+      "component_ids": [
+        "AIR-07"
+      ],
+      "name": "터보차저",
+      "sources": [
+        "S62",
+        "S10"
+      ],
+      "reference_range_km": [
+        160934.4,
+        241401.6
+      ],
+      "reference_range_months": null,
+      "planning_km": 150000,
+      "planning_months": null,
+      "action": "예방교환상담",
+      "scope": "일반배기터보_튜닝/산업용/전동압축기로복사금지",
+      "note": "15만부터예방교환견적선택. 정상부품폐기비용고려. 터보고장원인이흡배기/급유이면먼저해결; 공급업체설명이며실측분포아님.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획",
+      "reference_semantics": "업체참고치"
+    },
+    {
+      "id": "PR16",
+      "component_ids": [
+        "FUE-09"
+      ],
+      "name": "구형 Bosch 커먼레일 인젝터",
+      "sources": [
+        "S63",
+        "S11"
+      ],
+      "reference_range_km": [
+        160934.4,
+        160934.4
+      ],
+      "reference_range_months": null,
+      "planning_km": 150000,
+      "planning_months": null,
+      "action": "예방교환상담",
+      "scope": "원래5.9Cummins또는LB7Duramax인젝터만",
+      "note": "후기개량품/국산승용디젤로자동적용금지. 리턴량/분사/누설시험후교환여부. 탈거씰·코딩별도확인.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획",
+      "reference_semantics": "업체참고치"
+    },
+    {
+      "id": "PR17",
+      "component_ids": [
+        "FUE-06"
+      ],
+      "name": "탱크 저압 연료펌프",
+      "sources": [
+        "S64"
+      ],
+      "reference_range_km": [
+        160934.4,
+        null
+      ],
+      "reference_range_months": null,
+      "planning_km": 150000,
+      "planning_months": null,
+      "action": "예방교환상담",
+      "scope": "일반탱크급유펌프_고압펌프제외",
+      "note": "약10만mile이상이라는열린상한. 15만은예방상담이며16.1만실제수명/최대수명아님. 압력·전류·배선원인확인.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획",
+      "reference_semantics": "하한참고_상한미제시"
+    },
+    {
+      "id": "PR18",
+      "component_ids": [
+        "COO-06"
+      ],
+      "name": "BMW 초기 전동 워터펌프",
+      "sources": [
+        "S65"
+      ],
+      "reference_range_km": [
+        96560.64,
+        96560.64
+      ],
+      "reference_range_months": null,
+      "planning_km": 50000,
+      "planning_months": null,
+      "action": "예방교환상담",
+      "scope": "BMW2006~2013N52/N54해당펌프만",
+      "note": "원문약9.7만참고유지가능. 5만은매우이른선택임을경고; 단순화때문에10만으로늦추지않음. 다른엔진/HEV/EV펌프자동적용금지.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획",
+      "reference_semantics": "전문업체위험참고"
+    },
+    {
+      "id": "PR19",
+      "component_ids": [
+        "COO-07"
+      ],
+      "name": "인접 서모스탯",
+      "sources": [
+        "S65"
+      ],
+      "reference_range_km": null,
+      "reference_range_months": null,
+      "planning_km": null,
+      "planning_months": null,
+      "action": "동시교환상담",
+      "scope": "PR18매칭차량에서펌프작업과실제공임이겹치는서모스탯",
+      "note": "해당펌프선택시점상속후남은사용가치/추가공임평가. 통합열관리모듈과모든서모스탯의독립수명이아님.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "관련작업의선택시점을상속",
+      "reference_semantics": "관련작업",
+      "inherit_target": "PR18"
+    },
+    {
+      "id": "PR20",
+      "component_ids": [
+        "EXH-04"
+      ],
+      "name": "DPF 재 축적·탈거세척",
+      "sources": [
+        "S66",
+        "S25"
+      ],
+      "reference_range_km": [
+        96560.64,
+        160934.4
+      ],
+      "reference_range_months": null,
+      "planning_km": 50000,
+      "planning_months": null,
+      "action": "세척필요성상담",
+      "scope": "DPF장착디젤_정비업체일반참고",
+      "note": "원문6~10만mile세척권유. 5만은조기상담선택일뿐무조건탈거세척아님. 차압·재추정·재생이력으로필요시세척; 청소로본체교환나이리셋금지.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획",
+      "reference_semantics": "업체참고치"
+    },
+    {
+      "id": "PR21",
+      "component_ids": [
+        "EXH-05"
+      ],
+      "name": "DPF 본체",
+      "sources": [
+        "S66",
+        "S25"
+      ],
+      "reference_range_km": [
+        160934.4,
+        241401.6
+      ],
+      "reference_range_months": null,
+      "planning_km": 150000,
+      "planning_months": null,
+      "action": "예방교환상담",
+      "scope": "DPF장착디젤_정비업체일반참고",
+      "note": "15만부터회복가능성/교환예산검토. 균열·용융·세척후미회복시교환판단. 15만km교환명령/세척2~3회한계/보편유량%미채택.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "출처설명확인_범용수명미입증",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "출처수치에서선택한예방계획",
+      "reference_semantics": "업체참고치"
+    },
+    {
+      "id": "PR22",
+      "component_ids": [
+        "TIM-04",
+        "TIM-05"
+      ],
+      "name": "체인 텐셔너·가이드·스프로킷",
+      "sources": [
+        "S24"
+      ],
+      "reference_range_km": null,
+      "reference_range_months": null,
+      "planning_km": null,
+      "planning_months": null,
+      "action": "동시교환상담",
+      "scope": "PR13선택차량의해당체인키트_위상조절기는별도판단",
+      "note": "Gates전체체인키트동시작업권고. 위상조절기는키트에포함되거나개별정비절차상필요한경우만; 모든VVT장치15만교환으로확대금지.",
+      "bundle_ids": [],
+      "requires_user_opt_in": true,
+      "automatic_replacement": false,
+      "confidence": "공급사작업권고_범용수명아님",
+      "reset_basis": "실제교환일과실제교환거리_부품별",
+      "numeric_kind": "관련작업의선택시점을상속",
+      "inherit_target": "PR13"
+    }
+  ],
+  "remaining_numeric_research": [],
+  "integration": "개별장착·범위매칭후사용자선택규칙으로제공. 기존공식/사용자규칙자동덮어쓰기금지. 상담알림은교환기한초과로표시하지않음.",
+  "closure_file": "research-closure.json"
+}

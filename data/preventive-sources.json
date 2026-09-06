@@ -1,0 +1,192 @@
+[
+  {
+    "id": "S52",
+    "title": "Monroe 프랑스 쇼바 권고",
+    "url": "https://www.monroe.com/fr-fr/support/technical-tips/lv/shock-absorbers/when-to-check-shocks-and-struts.html",
+    "publisher_type": "공급사",
+    "claim": "2만km점검·8만km교환권고. 상태/차량/사용조건 차이. 기존 S06 점검표현과 지역별 차이 보존.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S53",
+    "title": "Arnott FAQ",
+    "url": "https://www.arnottsuspension.com/pages/faq",
+    "publisher_type": "공급사",
+    "claim": "에어서스 부품 6~10년 또는8~10만mile 설명. 고무에어스프링에 사용; 압축기/센서에 동일수명 복사금지.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S54",
+    "title": "Gates 호스 카탈로그 2018",
+    "url": "https://www.gatesaustralia.com.au/~/media/files/gates-au/automotive/catalogues/hose-application-catalogue-aus-nz-january-2018.pdf",
+    "publisher_type": "공급사",
+    "claim": "PDF6쪽 일반 냉각호스4년예방교환 권고. 판매·지역성 있는 권고이며 모든현대특수회로 적용아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S55",
+    "title": "GMT 엔진마운트",
+    "url": "https://www.gmtrubber.com/engine-mounts/",
+    "publisher_type": "공급사",
+    "claim": "일반고무마운트5~7년 참고. 고정정비주기없음을명시. 유압/능동마운트 수치보장아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S56",
+    "title": "DENSO 동절기 관리",
+    "url": "https://www.denso-am.eu/news/20181126_avoiding-engine-trouble-in-winter-top-tips-from-denso-am",
+    "publisher_type": "공급사",
+    "claim": "디젤예열플러그10~20만km교환 권고. 성능시험과세트교환 설명. 임의연수추가안함.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S57",
+    "title": "GM TPMS 기술자료 2023",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10231519-0001.pdf",
+    "publisher_type": "제조사",
+    "claim": "5쪽센서설계수명10년/24만km. 문서대상GM차량한정·SaturnAstra제외. 예방교환의무가아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S58",
+    "title": "AAA 자동차배터리 수명",
+    "url": "https://www.aaa.com/autorepair/articles/how-long-do-car-batteries-last",
+    "publisher_type": "정비서비스기관",
+    "claim": "시동용배터리3~5년 참고. 기후·충전·사용조건 영향. AGM/EFB각각수명비교자료아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S59",
+    "title": "Garavel Subaru 정비메뉴",
+    "url": "https://garavelsubaru.com/maintenance-schedule",
+    "publisher_type": "딜러정비업체",
+    "claim": "PCV3만mile교환 업체정비메뉴. 제조사정비표로간주금지.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S60",
+    "title": "Quirk Works Subaru 정비메뉴",
+    "url": "https://www.quirkworkssubaru.com/2018-and-newer-maintenance-intervals/",
+    "publisher_type": "딜러정비업체",
+    "claim": "PCV6만mile교환 사례. S59와다른업체선택. 범용권고로자동적용금지.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처의권고/설명존재확인_개별차량수명확률미입증"
+  },
+  {
+    "id": "S61",
+    "title": "MOOG 휠베어링 참고수명",
+    "url": "https://www.moogparts.com/en-eu/archives/blog/how-long-wheel-bearings-last.html",
+    "publisher_type": "공급사",
+    "claim": "13.6~16만km 경험칙. 조건과품질에따라차이; 보장/차량별의무주기아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S62",
+    "title": "Diesel Components 터보 참고수명",
+    "url": "https://dieselcomponentsinc.com/how-long-do-turbochargers-really-last/",
+    "publisher_type": "터보정비·공급업체",
+    "claim": "10~15만mile 일반설명. 표본/고장확률없는업체참고치. 디젤은더길수있다는설명; 제조사공식주기아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S63",
+    "title": "Exergy 인젝터 시험·교환 FAQ",
+    "url": "https://www.exergyperformance.com/ft-2434-faq.html",
+    "publisher_type": "인젝터전문공급업체",
+    "claim": "원래5.9Cummins/LB7인젝터10만mile 마모참고. 후기LLY/LBZ/LMM/6.7는15만mile마모징후. 5만실패/20만정상사례도명시; 다른인젝터복사금지.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S64",
+    "title": "Firestone 연료펌프 교환 안내",
+    "url": "https://www.firestonecompleteautocare.com/maintain/tune-up/fuel-pump-replacement/",
+    "publisher_type": "정비서비스업체",
+    "claim": "탱크급유펌프약10만mile이상설계설명. 열린상한참고이며실측평균/고압펌프교환주기아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S65",
+    "title": "BimmerWorld BMW 냉각계통 기술안내",
+    "url": "https://www.bimmerworld.com/BMW-Cooling-System-Tech/",
+    "publisher_type": "BMW전문부품·정비업체",
+    "claim": "2006~2013 N52/N54 전동워터펌프6만mile이후고장위험을강조. 여러차량에서펌프와서모스탯동시작업설명. 전체전동펌프수명아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S66",
+    "title": "DPF Cleaner 세척·교환 판단",
+    "url": "https://dpf-cleaner.uk/dpf-lifespan-clean-or-replace/",
+    "publisher_type": "DPF세척정비업체",
+    "claim": "6~10만mile세척권유,10~15만mile유량시험/세척검토 및일반수명설명. 상업적참고치; 70%/80%임계와2~3회세척횟수는차종공통으로채택하지않음.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S67",
+    "title": "Astemo 고압펌프 기술지원",
+    "url": "https://www.aftermarket.astemo.com/emea/en/news/2026/0717_004925.html",
+    "publisher_type": "공급사",
+    "claim": "고압펌프자체무정비설명과플랫플런저형오일교환시검사예외. 5만km표면색변화는교환수명아님. 마모·금속분발견시계통검사.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S68",
+    "title": "Delphi GDI 서비스 문제",
+    "url": "https://www.delphiautoparts.com/apac/products-and-technologies/gasoline-fuel-systems/fuel-injection-system/petrol-fuel-injection/common-gdi-service-issues",
+    "publisher_type": "공급사",
+    "claim": "GDI연료희석/탄소축적/LSPI진단. 3000mile에도문제발생가능은인젝터교환주기가아님.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S69",
+    "title": "HELLA EGR 교환 판단",
+    "url": "https://www.hella.com/techworld/en/car-parts/auto-electronics/egr-valve/",
+    "publisher_type": "공급사",
+    "claim": "카본·누설·진공·전원에따른고장설명. 확인본문에공통km/연수교환주기는제시하지않음.",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  },
+  {
+    "id": "S70",
+    "title": "HELLA NOx 센서 FAQ",
+    "url": "https://www.hella.com/techworld/en/car-parts/auto-electronics/nox-sensor/",
+    "publisher_type": "공급사",
+    "claim": "교환전원인진단·전원/CAN·엔진오일/냉각수소모영향 및교환후확인. 공통교환거리채택근거로사용하지않음.",
+    "access": "검색엔진원문FAQ확인",
+    "checked_at": "2026-09-06",
+    "numeric_confidence": "출처설명確認_통계수명과범용의무주기미입증"
+  }
+]
