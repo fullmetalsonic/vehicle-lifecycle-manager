@@ -4,7 +4,7 @@
 
 | 파일 | 내용 |
 |---|---|
-| components.json | 222개 항목, 적용조건·운영판정·진단 유발조건·정책/공임 연결 |
+| components.json | 223개 항목, 적용조건·운영판정·진단 유발조건·정책/공임 연결 |
 | policies.json | 26개 공통 정책 후보의 최종 판정, 원문과 선택 주기 |
 | rule-variants.json | 20개 조건부 수치 사례. 실제 장착·시장·최신절차 확인 필수 |
 | sources.json | 본문 확인/접근 실패 구별. 접근 실패 자료는 수치 채택 금지 |
@@ -17,10 +17,13 @@
 | service-alignment.json | 실제거리와 선택회차 분리 및 계산 예제 |
 | preventive-planning.json | 22개 예방계획: 참고범위·선택값·상담/교환·작업상속 |
 | preventive-sources.json | 추가 출처 S52–S70. 공급사·제조사·정비업체 자료 구별 |
-| research-closure.json | 직전 미결14개 검토결론·기각이유와 222항목 연결표 |
-| launch-defaults.json | 최종 적용정책222개: 주기53 / 사건29 / 측정138 / 구조별2. 앱설계값과 원문값 분리 |
+| research-closure.json | 초기 미결14개 검토 이력·기각이유와223항목 연결표 |
+| launch-defaults.json | 적용정책223개: 주기29 / 사건29 / 상태140 / 구조별25 |
+| implementation-sources.json | 추가 원문14건 R01~R14, 확인된 주장과 적용범위 |
+| implementation-rules.json | 임의값30개 재감사 이력, 새 조건부 사례32개 |
+| implementation-contract.json | 등록·정비보고·숫자판정·자산별 시계·공임·알림의 확정 계약 |
 
-구현 기준의 진입점은 launch-defaults.json이다. 과거 components.decision이나 연구종결 상태를 앱 기본값으로 직접 사용하지 않는다. mode와default_action, interval/review, criteria, subtype_rules를 함께 적용한다. 검사는 tests/launch-defaults.cjs로 재현한다.
+구현 진입점은 implementation-contract.json과launch-defaults.json이다. 구현 규칙은 implementation-rules.json을 함께 사용한다. 기존V01~V20은 tests/reference-engine.cjs의compileVariants처럼 service_profile을 명시적으로 연결한다. 과거 components.decision이나 종결표시만으로 주기를 생성하지 않는다. mode/default_action/criteria/subtype_rules/operational_contract를 함께 적용한다. review는 교환 또는 분해검사 기한이 아니다. 검사는 tests/research-gate.cjs로 재현한다.
 
 `reference_range_km`의 상한 `null`은 상한 미제시다. 0km나 고정수명으로 해석하지 않는다. `inherit_target`은 해당 차량의 실제 선택값이 확인되어야 활성화하며 상속 순환을 허용하지 않는다. 수치가 없다는 이유로 교환기한을 생성하지 않는다.
 
@@ -32,4 +35,4 @@
 
 적용 판단 순서: 실제 장착 확인 → 연식/시장/제품·구조·조건 일치 → 원문 점검/청소/교환 구별 → 최초/반복 확인 → 선택 주기와 더 이른 원문 기한 비교. 맞는 규칙이 없으면 확인 필요로 보류하고 기한을 발명하지 않는다.
 
-미확인 유형: 모든 습식 타이밍벨트/오일펌프벨트의 제품별 주기, 모든 CVT/동력분기 장치, 전 차종 LPG 필터·가스탱크 법정검사, 모든 냉각수/브레이크액 제품 호환성. 이 데이터로 자동 추정하지 않는다. 법정검사·리콜은 국가와 차량별 별도 조회 영역이며 본 부품교환 주기 연구에 포함되지 않는다.
+범용 자동추정 금지 대상은 제품별 벨트/변속기 구조, LPG 시스템, 액규격 호환성이다. 확인된 프로필은 해당 규칙으로, 그 외에는 사용자 일정/정비결과 입력으로 처리하도록 확정했다. 법정검사·리콜의 실시간 완전성 보장은 이번 부품관리 기준의 범위가 아니다. 앱 개발 중 임의 공통값을 채우는 조사 과제로 남기지 않는다.

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "R01",
+    "title": "DENSO 점화플러그 재질별 교환 안내",
+    "url": "https://www.denso-am.eu/news/20141211_spark-plug-replacement-all-you-need-to-know-from-the-experts-at-denso",
+    "publisher_type": "공급사",
+    "claim": "니켈 3~4.5만km, 백금 약7만km, 더블백금 8만km 초과, 이리듐 6~12만km. 전극 설계 차이이며 달력주기는 제시하지 않음.",
+    "scope": "재질·전극구조; LPG/CNG에 그대로 적용하지 않음",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R02",
+    "title": "Kia BDm 2024 통상·가혹 정비표",
+    "url": "https://ownersmanual.kia.com/full_webhelp/BDm/2024/en_US/topics/t00605.html",
+    "publisher_type": "제조사",
+    "claim": "냉각수 최초21만km/120개월, 반복3만km/24개월. 중국·브라질 가솔린 연료필터6만km/48개월. 탱크에어필터 중국4.5만km/36개월, 이외6만km/48개월. 가혹 MT/DCT12만km, AT/IVT9만km. 브레이크/클러치액 호주·뉴질랜드3만km/24개월, 이외4.5만km/36개월.",
+    "scope": "BDm 2024, 엔진·시장·통상/해당가혹조건 별도; en_US는 언어이지 미국 전용 적용표가 아님",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R03",
+    "title": "VW TPS Haldex 기술자료",
+    "url": "https://tps.trade/insider/all-systems-go-as-haldex-put-under-the-spotlight/",
+    "publisher_type": "제조사부품망",
+    "claim": "1·2세대 오일2만mile, 오일+필터4만mile. 4·5세대 오일3년. 4·5세대 필터 정기교환 주기는 명시하지 않음.",
+    "scope": "Haldex 세대 정확히 확인; 3세대는 이 자료에서 추정하지 않음",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R04",
+    "title": "Kia EV9 24MY RHD 정비표",
+    "url": "https://www.kia.com/th/th/pdf/service/manual/Kia-Owners-Manual_EV9_EN.pdf",
+    "publisher_type": "제조사",
+    "claim": "정비장 PDF 769~771쪽: 냉각수 최초18만km/120개월, 반복3만km/24개월. 해당가혹 감속기오일12만km. 장착된 eCall/ERA-GLONASS 백업배터리4년.",
+    "scope": "EV9 24MY RHD 및 해당시장/장착장비. 웹 추출 본문 확인; 표 이미지 검증은 별도",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R05",
+    "title": "ROTURN LPG 개조시스템 FAQ",
+    "url": "https://www.roturn.com/faq",
+    "publisher_type": "시스템공급사",
+    "claim": "직분사 방식 필터5만km; Di 방식 최초2.5만km, 이후7.5만km마다. 기간값 없음.",
+    "scope": "ROTURN 명명 기준. 액상/기상·순정 LPI로 자의적으로 치환하지 않음",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R06",
+    "title": "Prins LPG 서비스 안내",
+    "url": "https://www.prinsautogas.com/en/service-your-prins-system-ua-version-en",
+    "publisher_type": "시스템공급사",
+    "claim": "2.5만km 또는2년의 정비 확인 권고. 이 문장만으로 필터 전부 정기교환이라 해석하지 않음.",
+    "scope": "Prins 해당 VSI LPG; 검사와 부품교환 구별",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R07",
+    "title": "Toyota T-SB-0062-20 배터리 냉각 필터",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2020/MC-10177773-9999.pdf",
+    "publisher_type": "제조사정비공보",
+    "claim": "적용표의 미국 HEV: 필터확인5천mile, 정비/청소2만mile 또는 배터리 어셈블리교환 시. 교환식/청소식과 장착 필터형식은 공보표로 구별.",
+    "scope": "2020-06-18 공보의 해당연식·모델·실제필터형식; 모든 Toyota 일괄적용 아님",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R08",
+    "title": "Ryco Toyota HEV 배터리 필터",
+    "url": "https://rycofilters.com.au/articles/ryco-battery-air-filters-for-toyota-hybrids",
+    "publisher_type": "공급사",
+    "claim": "해당 Ryco 필터 점검1만km, 교환2만km.",
+    "scope": "Ryco 교환식 제품; Toyota 공보의 2만mile 청소와 다름",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R09",
+    "title": "VW MY2018 미국 정비표",
+    "url": "https://static.nhtsa.gov/odi/tsbs/2017/MC-10127897-9999.pdf",
+    "publisher_type": "제조사",
+    "claim": "2쪽 명시: 6단DSG 오일+필터4만mile, Golf R 7단 오일8만mile, AWD클러치액3년. 선루프 최초4만mile/3년, 이후4만mile/2년 청소·윤활·배수 확인.",
+    "scope": "2018 VW 미국 e-Golf 제외; 변속기/선루프 형식 확인",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R10",
+    "title": "Toyota 부품 딜러 장기관리 안내",
+    "url": "https://parts.olathetoyota.com/blog/high-cost-of-skipping-maintenance",
+    "publisher_type": "딜러예방제안",
+    "claim": "Toyota HEV 구동유6~9만mile/6~9년, TE 계열6만mile/6년 권고. 인버터 분홍 SLLC 5만mile/5년 예방제안.",
+    "scope": "딜러가 정비전문가 의견을 소개한 자료. 제조사 공식 주기나 모든 하이브리드 공통 수명이 아님",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R11",
+    "title": "AMALIE 파워스티어링액 안내",
+    "url": "https://www.amalie.com/product/power-steering-fluid/",
+    "publisher_type": "공급사",
+    "claim": "2년 또는5만mile 정기 플러시 제안.",
+    "scope": "유압식만. 제품 적합성/정비방식 확인 필요; EPS 제외",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R12",
+    "title": "Volvo 딜러 키 배터리 안내",
+    "url": "https://www.montrosevolvocars.com/blog/how-to-change-the-battery-in-a-volvo-key-fob-2025-models",
+    "publisher_type": "딜러예방제안",
+    "claim": "사용에 따라 대체로2~4년이라는 설명. 저전압경고·반응저하 시 교환.",
+    "scope": "교체 가능한 코인셀 키; 밀봉형/충전형 키 제외",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R13",
+    "title": "현대 GN7 2023 국내 정비표",
+    "url": "https://ownersmanual.hyundai.com/full_webhelp/GN7/2023/ko_KR/id6b219dd157c.html",
+    "publisher_type": "제조사",
+    "claim": "LPG 연료필터/충진구필터6만km 점검, 충전시간 증가 시 인렛 여과지 확인교환. LPI 누설장비검사 최소2만km. 냉각수 최초20만km/120개월 후4만km/24개월. 가솔린 필터는 증상기반.",
+    "scope": "GN7 2023 국내 가솔린/LPI. 점검 기호를 교환으로 바꾸지 않음",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  },
+  {
+    "id": "R14",
+    "title": "Cummins ISX15 EPA2010 정비표",
+    "url": "https://www.cummins.com/en-na/engines/products/isx15-epa-2010?v=691",
+    "publisher_type": "제조사",
+    "claim": "DEF 필터32만km/20만mile. 종전 승용 요소수필터5만km/60개월의 공통근거가 될 수 없음.",
+    "scope": "대형트럭 ISX15 EPA2010; 승용 디젤에 이식 금지. 범용주기 반례로만 사용",
+    "access": "본문확인",
+    "checked_at": "2026-09-06",
+    "lifetime_proven": false
+  }
+]

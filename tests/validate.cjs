@@ -10,14 +10,14 @@ const components=read('components'),policies=read('policies'),sources=read('sour
 const profiles=read('management-profiles'),variants=read('rule-variants'),families=read('families');
 function ids(rows){const s=new Set(rows.map(x=>x.id));eq(s.size,rows.length);return s;}
 const ci=ids(components),pi=ids(policies),si=ids(sources),bi=ids(bundles),fi=ids(families);
-eq(components.length,222);eq(policies.length,26);eq(variants.length,20);eq(bundles.length,15);eq(families.length,25);
+eq(components.length,223);eq(policies.length,26);eq(variants.length,20);eq(bundles.length,15);eq(families.length,25);
 for(const x of components){ok(x.decision&&x.trigger&&x.applicability);for(const id of x.policy_ids)ok(pi.has(id));for(const id of x.bundle_ids)ok(bi.has(id));eq(x.automatic_replacement,false);}
 for(const p of policies){for(const id of p.component_ids)ok(ci.has(id));for(const id of p.sources)ok(si.has(id));ok(fi.has(p.family_id));eq(p.automatic_application,false);}
 for(const b of bundles){for(const id of [...b.anchors,...b.companions])ok(ci.has(id));for(const id of b.sources)ok(si.has(id));eq(b.allow_delay_due_item,false);ok(b.requires_consent&&b.requires_quote);}
 for(const v of variants){for(const id of v.component_ids)ok(ci.has(id));for(const id of v.sources){ok(si.has(id));ok(!['S38','S50','C01','C02','C03','C04'].includes(id));}ok(v.selected_km===null||v.selected_km<=v.reference_km);eq(v.automatic_application,false);}
 eq(ids(profiles.items).size,ci.size);for(const x of profiles.items){ok(ci.has(x.id));eq(x.profile_changes_interval,false);eq(x.record_visible_regardless_of_profile,true);}
 for(const p of profiles.packs)eq(profiles.items.filter(x=>x.primary_pack===p.id).length,p.catalog_count);
-eq(profiles.packs.map(x=>x.catalog_count),[48,98,46,30]);
+eq(profiles.packs.map(x=>x.catalog_count),[48,98,47,30]);
 for(const p of profiles.profiles)for(const id of p.packs)ok(profiles.packs.some(x=>x.id===id));
 for(const a of read('applications'))for(const m of a.members)ok(si.has(m.source));
 for(const s of sources){ok(/^https:\/\//.test(s.url));}

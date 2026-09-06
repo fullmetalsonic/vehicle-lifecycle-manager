@@ -1,0 +1,1322 @@
+{
+  "schema_version": "1.0",
+  "checked_at": "2026-09-06",
+  "supersedes": "launch-defaults v1.0의 근거불충분30개 공통값",
+  "source_files": [
+    "sources.json",
+    "preventive-sources.json",
+    "implementation-sources.json"
+  ],
+  "priority": [
+    "위험보고",
+    "정확히일치한원문기한",
+    "사용자예방기한",
+    "선택형공급사예방안"
+  ],
+  "case_activation": "정확한 service_profile 확인과 실제 자산 일치 필수; 일반 차명 문자열로 자동확정하지 않음. 예방단축·추가비용을표시하고일정선택동의후활성화.",
+  "unknown_profile": "차량등록과 기록은 허용. 사용자 일정 또는 상태관리로 작동하며 자료를 날조하지 않음",
+  "cases": [
+    {
+      "id": "N01",
+      "component_ids": [
+        "FUE-01"
+      ],
+      "source_ids": [
+        "R01"
+      ],
+      "when": {
+        "service_profile": "denso_nickel_gasoline"
+      },
+      "action": "교환",
+      "reference_km": 30000,
+      "reference_months": null,
+      "selected_km": 30000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 30000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N02",
+      "component_ids": [
+        "FUE-01"
+      ],
+      "source_ids": [
+        "R01"
+      ],
+      "when": {
+        "service_profile": "denso_platinum_gasoline"
+      },
+      "action": "교환",
+      "reference_km": 70000,
+      "reference_months": null,
+      "selected_km": 50000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 70000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N03",
+      "component_ids": [
+        "FUE-01"
+      ],
+      "source_ids": [
+        "R01"
+      ],
+      "when": {
+        "service_profile": "denso_iridium_unspecified_gasoline"
+      },
+      "action": "교환",
+      "reference_km": 60000,
+      "reference_months": null,
+      "selected_km": 50000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "note": "6~12만 중 하한 사용; 장수명형12만으로 단정하지 않음",
+      "original_distance": {
+        "value": 60000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N04",
+      "component_ids": [
+        "FUE-05"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "when": {
+        "service_profile": "BDm_2024_China_Brazil_gasoline"
+      },
+      "action": "교환",
+      "reference_km": 60000,
+      "reference_months": 48,
+      "selected_km": 50000,
+      "selected_months": 48,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 60000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N05",
+      "component_ids": [
+        "FUE-18"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "when": {
+        "service_profile": "BDm_2024_not_China"
+      },
+      "action": "교환",
+      "reference_km": 60000,
+      "reference_months": 48,
+      "selected_km": 50000,
+      "selected_months": 48,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 60000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N06",
+      "component_ids": [
+        "FUE-18"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "when": {
+        "service_profile": "BDm_2024_China"
+      },
+      "action": "교환",
+      "reference_km": 45000,
+      "reference_months": 36,
+      "selected_km": 40000,
+      "selected_months": 36,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 45000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N07",
+      "component_ids": [
+        "COO-01"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "when": {
+        "service_profile": "BDm_2024_engine_coolant"
+      },
+      "action": "교환",
+      "reference_km": 30000,
+      "reference_months": 24,
+      "selected_km": 30000,
+      "selected_months": 24,
+      "reset_action": "replace",
+      "first": {
+        "reference_km": 210000,
+        "reference_months": 120,
+        "selected_km": 200000,
+        "selected_months": 120
+      },
+      "original_distance": {
+        "value": 30000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N08",
+      "component_ids": [
+        "TRN-05"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "when": {
+        "service_profile": "BDm_2024_MT_applicable_severe"
+      },
+      "action": "교환",
+      "reference_km": 120000,
+      "reference_months": null,
+      "selected_km": 100000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 120000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N09",
+      "component_ids": [
+        "TRN-02"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "when": {
+        "service_profile": "BDm_2024_IVT_applicable_severe"
+      },
+      "action": "교환",
+      "reference_km": 90000,
+      "reference_months": null,
+      "selected_km": 50000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 90000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N10",
+      "component_ids": [
+        "TRN-15"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "when": {
+        "service_profile": "BDm_2024_Australia_NZ_hydraulic_clutch"
+      },
+      "action": "교환",
+      "reference_km": 30000,
+      "reference_months": 24,
+      "selected_km": 30000,
+      "selected_months": 24,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 30000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N11",
+      "component_ids": [
+        "TRN-15"
+      ],
+      "source_ids": [
+        "R02"
+      ],
+      "when": {
+        "service_profile": "BDm_2024_other_market_hydraulic_clutch"
+      },
+      "action": "교환",
+      "reference_km": 45000,
+      "reference_months": 36,
+      "selected_km": 40000,
+      "selected_months": 36,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 45000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N12",
+      "component_ids": [
+        "DRV-04"
+      ],
+      "source_ids": [
+        "R03"
+      ],
+      "when": {
+        "service_profile": "Haldex_gen1_2"
+      },
+      "action": "교환",
+      "reference_km": 32186.88,
+      "reference_months": null,
+      "selected_km": 30000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "asset_part": "oil",
+      "original_distance": {
+        "value": 20000,
+        "unit": "mile"
+      }
+    },
+    {
+      "id": "N13",
+      "component_ids": [
+        "DRV-04"
+      ],
+      "source_ids": [
+        "R03"
+      ],
+      "when": {
+        "service_profile": "Haldex_gen1_2"
+      },
+      "action": "교환",
+      "reference_km": 64373.76,
+      "reference_months": null,
+      "selected_km": 50000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "asset_part": "filter",
+      "note": "오일을 교환해도 필터 시계가 리셋되지 않음",
+      "original_distance": {
+        "value": 40000,
+        "unit": "mile"
+      }
+    },
+    {
+      "id": "N14",
+      "component_ids": [
+        "DRV-04"
+      ],
+      "source_ids": [
+        "R03"
+      ],
+      "when": {
+        "service_profile": "Haldex_gen4_5"
+      },
+      "action": "교환",
+      "reference_km": null,
+      "reference_months": 36,
+      "selected_km": null,
+      "selected_months": 36,
+      "reset_action": "replace",
+      "asset_part": "oil",
+      "original_distance": null
+    },
+    {
+      "id": "N15",
+      "component_ids": [
+        "COO-03"
+      ],
+      "source_ids": [
+        "R04"
+      ],
+      "when": {
+        "service_profile": "EV9_24MY_RHD_document_coolant"
+      },
+      "action": "교환",
+      "reference_km": 30000,
+      "reference_months": 24,
+      "selected_km": 30000,
+      "selected_months": 24,
+      "reset_action": "replace",
+      "first": {
+        "reference_km": 180000,
+        "reference_months": 120,
+        "selected_km": 150000,
+        "selected_months": 120
+      },
+      "note": "실제 회로 식별 후 하나의 냉각수 자산에만 적용",
+      "original_distance": {
+        "value": 30000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N16",
+      "component_ids": [
+        "DRV-05"
+      ],
+      "source_ids": [
+        "R04"
+      ],
+      "when": {
+        "service_profile": "EV9_24MY_RHD_applicable_severe"
+      },
+      "action": "교환",
+      "reference_km": 120000,
+      "reference_months": null,
+      "selected_km": 100000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 120000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N17",
+      "component_ids": [
+        "LPG-01",
+        "LPG-04"
+      ],
+      "source_ids": [
+        "R05"
+      ],
+      "when": {
+        "service_profile": "ROTURN_direct_injection_filter_verified"
+      },
+      "action": "교환",
+      "reference_km": 50000,
+      "reference_months": null,
+      "selected_km": 50000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "requires_resolved_component": true,
+      "service_key": "ROTURN_filter",
+      "note": "실제 작업대상 필터 하나를 확인해 연결; 양쪽에 중복 생성하지 않음",
+      "original_distance": {
+        "value": 50000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N18",
+      "component_ids": [
+        "LPG-01",
+        "LPG-04"
+      ],
+      "source_ids": [
+        "R05"
+      ],
+      "when": {
+        "service_profile": "ROTURN_Di_filter_verified"
+      },
+      "action": "교환",
+      "reference_km": 75000,
+      "reference_months": null,
+      "selected_km": 50000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "first": {
+        "reference_km": 25000,
+        "reference_months": null,
+        "selected_km": 25000,
+        "selected_months": null
+      },
+      "requires_resolved_component": true,
+      "service_key": "ROTURN_filter",
+      "original_distance": {
+        "value": 75000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N19",
+      "component_ids": [
+        "LPG-01",
+        "LPG-04"
+      ],
+      "source_ids": [
+        "R06"
+      ],
+      "when": {
+        "service_profile": "Prins_VSI_LPG_service"
+      },
+      "action": "점검",
+      "reference_km": 25000,
+      "reference_months": 24,
+      "selected_km": 25000,
+      "selected_months": 24,
+      "reset_action": "inspect",
+      "requires_resolved_component": true,
+      "service_key": "Prins_system_service",
+      "note": "체계 검사 한 건; 모든 필터 교환 아님",
+      "original_distance": {
+        "value": 25000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N20",
+      "component_ids": [
+        "HV-05"
+      ],
+      "source_ids": [
+        "R07"
+      ],
+      "when": {
+        "service_profile": "Toyota_TSB0062_20_applicable_filter"
+      },
+      "action": "청소",
+      "reference_km": 32186.88,
+      "reference_months": null,
+      "selected_km": 30000,
+      "selected_months": null,
+      "reset_action": "clean",
+      "event": "battery_assembly_replaced",
+      "original_distance": {
+        "value": 20000,
+        "unit": "mile"
+      }
+    },
+    {
+      "id": "N21",
+      "component_ids": [
+        "HV-05"
+      ],
+      "source_ids": [
+        "R07"
+      ],
+      "when": {
+        "service_profile": "Toyota_TSB0062_20_applicable_filter"
+      },
+      "action": "점검",
+      "reference_km": 8046.72,
+      "reference_months": null,
+      "selected_km": 8046.72,
+      "selected_months": null,
+      "reset_action": "inspect",
+      "original_distance": {
+        "value": 5000,
+        "unit": "mile"
+      }
+    },
+    {
+      "id": "N22",
+      "component_ids": [
+        "HV-05"
+      ],
+      "source_ids": [
+        "R08"
+      ],
+      "when": {
+        "service_profile": "Ryco_Toyota_replacement_filter"
+      },
+      "action": "교환",
+      "reference_km": 20000,
+      "reference_months": null,
+      "selected_km": 20000,
+      "selected_months": null,
+      "reset_action": "replace",
+      "original_distance": {
+        "value": 20000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N23",
+      "component_ids": [
+        "HV-05"
+      ],
+      "source_ids": [
+        "R08"
+      ],
+      "when": {
+        "service_profile": "Ryco_Toyota_replacement_filter"
+      },
+      "action": "점검",
+      "reference_km": 10000,
+      "reference_months": null,
+      "selected_km": 10000,
+      "selected_months": null,
+      "reset_action": "inspect",
+      "original_distance": {
+        "value": 10000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N24",
+      "component_ids": [
+        "BDY-04"
+      ],
+      "source_ids": [
+        "R09"
+      ],
+      "when": {
+        "service_profile": "VW_MY2018_US_matching_sunroof"
+      },
+      "action": "청소",
+      "reference_km": 64373.76,
+      "reference_months": 24,
+      "selected_km": 50000,
+      "selected_months": 24,
+      "reset_action": "clean",
+      "first": {
+        "reference_km": 64373.76,
+        "reference_months": 36,
+        "selected_km": 50000,
+        "selected_months": 36
+      },
+      "note": "윤활·배수확인 포함; 유리/모터/씰 교환시계는 변경하지 않음",
+      "original_distance": {
+        "value": 40000,
+        "unit": "mile"
+      }
+    },
+    {
+      "id": "N25",
+      "component_ids": [
+        "TRN-06"
+      ],
+      "source_ids": [
+        "R10"
+      ],
+      "when": {
+        "service_profile": "Toyota_HEV_dealer_preventive_compatible"
+      },
+      "action": "교환",
+      "reference_km": 96560.64,
+      "reference_months": 72,
+      "selected_km": 50000,
+      "selected_months": 72,
+      "reset_action": "replace",
+      "requires_opt_in": true,
+      "note": "딜러 제안 범위 하한; 원문 권고가 아닌 선택형 예방안. WS/TE 및 구동기 규격 별도",
+      "original_distance": {
+        "value": 60000,
+        "unit": "mile"
+      }
+    },
+    {
+      "id": "N26",
+      "component_ids": [
+        "COO-02"
+      ],
+      "source_ids": [
+        "R10"
+      ],
+      "when": {
+        "service_profile": "Toyota_inverter_pink_SLLC_dealer_preventive"
+      },
+      "action": "교환",
+      "reference_km": 80467.20000000001,
+      "reference_months": 60,
+      "selected_km": 50000,
+      "selected_months": 60,
+      "reset_action": "replace",
+      "requires_opt_in": true,
+      "original_distance": {
+        "value": 50000,
+        "unit": "mile"
+      }
+    },
+    {
+      "id": "N27",
+      "component_ids": [
+        "SUS-13"
+      ],
+      "source_ids": [
+        "R11"
+      ],
+      "when": {
+        "service_profile": "hydraulic_PS_compatible_supplier_preventive"
+      },
+      "action": "교환",
+      "reference_km": 80467.20000000001,
+      "reference_months": 24,
+      "selected_km": 50000,
+      "selected_months": 24,
+      "reset_action": "replace",
+      "requires_opt_in": true,
+      "original_distance": {
+        "value": 50000,
+        "unit": "mile"
+      }
+    },
+    {
+      "id": "N28",
+      "component_ids": [
+        "ELE-12"
+      ],
+      "source_ids": [
+        "R12"
+      ],
+      "when": {
+        "service_profile": "replaceable_coin_cell_key_preventive"
+      },
+      "action": "교환",
+      "reference_km": null,
+      "reference_months": 24,
+      "selected_km": null,
+      "selected_months": 24,
+      "reset_action": "replace",
+      "requires_opt_in": true,
+      "note": "딜러의2~4년 설명 하한. 경고는 기간 전에 대응",
+      "original_distance": null
+    },
+    {
+      "id": "N29",
+      "component_ids": [
+        "LPG-01"
+      ],
+      "source_ids": [
+        "R13"
+      ],
+      "when": {
+        "service_profile": "GN7_2023_KR_LPI_filter"
+      },
+      "action": "점검",
+      "reference_km": 60000,
+      "reference_months": null,
+      "selected_km": 60000,
+      "selected_months": null,
+      "reset_action": "inspect",
+      "asset_part": "fuel_filter",
+      "original_distance": {
+        "value": 60000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N30",
+      "component_ids": [
+        "LPG-01"
+      ],
+      "source_ids": [
+        "R13"
+      ],
+      "when": {
+        "service_profile": "GN7_2023_KR_LPI_filter"
+      },
+      "action": "점검",
+      "reference_km": 60000,
+      "reference_months": null,
+      "selected_km": 60000,
+      "selected_months": null,
+      "reset_action": "inspect",
+      "asset_part": "filling_inlet_filter",
+      "event": "slow_LPG_refill",
+      "original_distance": {
+        "value": 60000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N31",
+      "component_ids": [
+        "COO-01"
+      ],
+      "source_ids": [
+        "R13"
+      ],
+      "when": {
+        "service_profile": "GN7_2023_KR_coolant"
+      },
+      "action": "교환",
+      "reference_km": 40000,
+      "reference_months": 24,
+      "selected_km": 40000,
+      "selected_months": 24,
+      "reset_action": "replace",
+      "first": {
+        "reference_km": 200000,
+        "reference_months": 120,
+        "selected_km": 200000,
+        "selected_months": 120
+      },
+      "original_distance": {
+        "value": 40000,
+        "unit": "km"
+      }
+    },
+    {
+      "id": "N32",
+      "component_ids": [
+        "ELE-15"
+      ],
+      "source_ids": [
+        "R04"
+      ],
+      "when": {
+        "service_profile": "EV9_24MY_RHD_ecall_equipped"
+      },
+      "action": "교환",
+      "reference_km": null,
+      "reference_months": 48,
+      "selected_km": null,
+      "selected_months": 48,
+      "reset_action": "replace",
+      "asset_part": "ecall_backup_battery",
+      "note": "시동용12V배터리·텔레매틱스본체와 다른 자산; 장착시장 확인",
+      "original_distance": null
+    }
+  ],
+  "corrections": [
+    {
+      "component_id": "ENG-09",
+      "selected_km": 40000,
+      "selected_months": null,
+      "source_ids": [
+        "S59",
+        "S60"
+      ],
+      "case_ids": [],
+      "decision": "48개월 삭제. Subaru 딜러 PCV 거리 사례를 독립형 PCV의 선택형 참고안으로만 유지; 커버 일체형 전체교환에 적용하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 40000,
+        "months": 48,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "FUE-01",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R01"
+      ],
+      "case_ids": [
+        "N01",
+        "N02",
+        "N03"
+      ],
+      "decision": "재질별3만/5만/5만km 선택안. 근거 없던24개월 삭제. 기존 V02/V03 정확한 차량 사례도 유지.",
+      "closed": true,
+      "previous": {
+        "km": 20000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "FUE-04",
+      "selected_km": 50000,
+      "selected_months": null,
+      "source_ids": [
+        "S01"
+      ],
+      "case_ids": [],
+      "decision": "NQ5 D2.0 6만→5만 사례 유지, 근거 없는24개월 삭제; 다른 필터에 공식공통주기로 전파하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "FUE-05",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R02",
+        "R13"
+      ],
+      "case_ids": [
+        "N04"
+      ],
+      "decision": "10만/120개월 공통값 취소. BDm 특정시장5만/48개월, GN7은 증상형. 탱크 내 펌프까지 정기교환하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 100000,
+        "months": 120,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "LPG-01",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R05",
+        "R06",
+        "R13"
+      ],
+      "case_ids": [
+        "N17",
+        "N18",
+        "N19",
+        "N29",
+        "N30"
+      ],
+      "decision": "2만/24개월 전제품 교환 취소. ROTURN 교환과 Prins/GN7 검사를 구별; 충진구필터 별도 자산.",
+      "closed": true,
+      "previous": {
+        "km": 20000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "LPG-04",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R05",
+        "R06"
+      ],
+      "case_ids": [
+        "N17",
+        "N18",
+        "N19"
+      ],
+      "decision": "기상/액상 이름만으로 주기 복사 금지. 실제 시스템·필터 연결 확인 후 하나의 작업으로 생성.",
+      "closed": true,
+      "previous": {
+        "km": 20000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "EXH-13",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R14"
+      ],
+      "case_ids": [],
+      "decision": "승용 요소수필터5만/60개월 취소. 막힘/공급압력 이상 또는 해당 모듈 정비 시 교체식 여과부 확인; 대형 ISX15 32만km는 반례이지 승용기본값 아님.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "COO-01",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R02",
+        "R13"
+      ],
+      "case_ids": [
+        "N07",
+        "N31"
+      ],
+      "decision": "최초와 반복 분리. 4만 공통은 BDm 반복3만보다 늦으므로 취소. 정확한 회로 프로필로 생성.",
+      "closed": true,
+      "previous": {
+        "km": 40000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "COO-02",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R10"
+      ],
+      "case_ids": [
+        "N26"
+      ],
+      "decision": "인버터4만/24개월 공통 취소. Toyota 분홍SLLC에 딜러예방5만/60개월 선택안; 다른 화학규격과 회로에 적용하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 40000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "COO-03",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R04"
+      ],
+      "case_ids": [
+        "N15"
+      ],
+      "decision": "배터리냉각수5만/36개월 공통 취소. EV9 최초/반복과 기존 EV6 사례 구분. 냉각수 회로별 한 번만 비용계상.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 36,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "COO-04",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "S51"
+      ],
+      "case_ids": [],
+      "decision": "V11 IONIQ5 India 5만/36개월 사례로만 적용. 저전도라는 명칭만으로 EV전체에 적용하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 36,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "TRN-02",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R02",
+        "S19"
+      ],
+      "case_ids": [
+        "N09"
+      ],
+      "decision": "임의60개월 취소. BDm IVT 거리기준과 V20 Nissan 72개월 사례를 구분.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "TRN-03",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "S34",
+        "R09"
+      ],
+      "case_ids": [],
+      "decision": "공통60개월 취소. V15~19 기어박스 코드별5만/10만km 및 오일/필터작업 분리.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "TRN-04",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "S30"
+      ],
+      "case_ids": [],
+      "decision": "5만/60개월 공통 취소. V05 SG2 해당가혹10만km 사례 사용; 건식클러치팩과 기어오일은 별개.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "TRN-05",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R02"
+      ],
+      "case_ids": [
+        "N08"
+      ],
+      "decision": "5만/60개월 공통 취소. BDm 해당가혹 MT10만km 선택안; 액규격 독립.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "TRN-06",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R10"
+      ],
+      "case_ids": [
+        "N25"
+      ],
+      "decision": "5만/60개월 임의값을 Toyota HEV 딜러 선택형5만/72개월 사례로 대체. HEV DCT/AT에 전파하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "TRN-15",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R02"
+      ],
+      "case_ids": [
+        "N10",
+        "N11"
+      ],
+      "decision": "5만/24개월 공통 취소. BDm 시장별3만/24개월 또는4만/36개월. 브레이크공유탱크라도 회로작업 완료를 각각 기록.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "DRV-01",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "case_ids": [],
+      "decision": "5만/60개월 범용값 취소. 변속기와 오일 공유면 동일자산 상속; 독립형은 사용자 예방계획 또는 진단기반. 후륜 사례를 전륜으로 복사하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "DRV-02",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "S02"
+      ],
+      "case_ids": [],
+      "decision": "임의60개월 취소. V06 해당구조 가혹10만km; 전기후륜은 별도 e-drive 구동유 규격/자산.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "DRV-03",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "S02",
+        "R13"
+      ],
+      "case_ids": [],
+      "decision": "임의60개월 취소. V07 해당가혹10만km 및 침수교환사건; 전기AWD에 PTU를 만들지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "DRV-04",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R03"
+      ],
+      "case_ids": [
+        "N12",
+        "N13",
+        "N14"
+      ],
+      "decision": "Haldex1/2세대 오일3만·필터5만,4/5세대 오일36개월. 세대미상은 자동숫자 배정 안함.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 36,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "DRV-05",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R04"
+      ],
+      "case_ids": [
+        "N16"
+      ],
+      "decision": "5만/60개월 공통 취소. EV9 해당가혹10만km 선택안과 침수사건. EV 전체 무교환/유교환으로 단정하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "SUS-13",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R11"
+      ],
+      "case_ids": [
+        "N27"
+      ],
+      "decision": "60개월 삭제. 유압식 호환규격에서 공급사예방5만/24개월 선택안. EPS에는 생성 금지.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "ELE-12",
+      "selected_km": null,
+      "selected_months": 24,
+      "source_ids": [
+        "R12"
+      ],
+      "case_ids": [
+        "N28"
+      ],
+      "decision": "2~4년 사용수명 설명의 하한2년 선택안. 충전형·밀봉형 키 제외.",
+      "closed": true,
+      "previous": {
+        "km": null,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "HV-01",
+      "selected_km": 40000,
+      "selected_months": 24,
+      "source_ids": [
+        "S30"
+      ],
+      "case_ids": [],
+      "decision": "V10 SG2 해당가혹 HSG4.5만/24개월→4만/24개월. ISG/다른HEV로 자동전파 금지.",
+      "closed": true,
+      "previous": {
+        "km": 40000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "HV-05",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R07",
+        "R08"
+      ],
+      "case_ids": [
+        "N20",
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "decision": "20,000mile 청소와20,000km 교환을 구별. 임의12개월 삭제. 기존 V14 RAV4 사례 보존.",
+      "closed": true,
+      "previous": {
+        "km": 20000,
+        "months": 12,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "BDY-04",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R09"
+      ],
+      "case_ids": [
+        "N24"
+      ],
+      "decision": "12개월 임의주기 대신 VW 해당선루프 최초36개월/반복24개월과5만km 청소안; 모터/씰교환 아님.",
+      "closed": true,
+      "previous": {
+        "km": null,
+        "months": 12,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "BDY-05",
+      "selected_km": null,
+      "selected_months": 12,
+      "source_ids": [
+        "S27"
+      ],
+      "case_ids": [],
+      "decision": "연1회 낙엽철 관리 리마인더는 수명근거가 아닌 계절일정으로 확정. 막힘·침수 시 즉시 청소; 부품 교환주기 아님.",
+      "closed": true,
+      "previous": {
+        "km": null,
+        "months": 12,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "HV-13",
+      "selected_km": 40000,
+      "selected_months": 24,
+      "source_ids": [
+        "S29",
+        "S42"
+      ],
+      "case_ids": [],
+      "decision": "V08 SG2 별도클러치 작동유4만/24개월 직접근거. 모든HEV에 존재한다고 가정하지 않음.",
+      "closed": true,
+      "previous": {
+        "km": 40000,
+        "months": 24,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    },
+    {
+      "component_id": "FUE-18",
+      "selected_km": null,
+      "selected_months": null,
+      "source_ids": [
+        "R02",
+        "R13"
+      ],
+      "case_ids": [
+        "N05",
+        "N06"
+      ],
+      "decision": "5만/60개월 공통 취소. BDm 시장별4만/36 또는5만/48개월, GN7은 검사형. 캐니스터 전체 교환과 구별.",
+      "closed": true,
+      "previous": {
+        "km": 50000,
+        "months": 60,
+        "basis": "앱설계예방값_공식주기인용아님"
+      }
+    }
+  ]
+}

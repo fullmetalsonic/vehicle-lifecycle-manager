@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "checked_at": "2026-09-06",
   "scope": "25년50만km공통관리데이터v1및직전14개추가수치검토",
-  "completion_definition": "목록/조건/출처종류/수치또는기각이유/관리행동/공임/시험을기록함. 222종개별수명입증이나전차종자동적용완료아님.",
+  "completion_definition": "초기14개 검토 이력과223항목 연결. 최신 수치/실장판정은 implementation-rules.json 및 RESEARCH_GATE.md가 우선한다.",
   "original_pending_ids": [
     "TIM-03",
     "TIM-05",
@@ -1908,6 +1908,15 @@
       "preventive_rule_ids": [],
       "baseline_decision": "상태기반_공통고정교환주기미채택",
       "coverage_kind": "기존관리판정과보완규칙연결_항목별새수명조사아님"
+    },
+    {
+      "component_id": "ELE-15",
+      "baseline_decision": "구조별주기",
+      "preventive_rule_ids": [],
+      "classification": "정확한장비프로필교환",
+      "implementation_case_ids": [
+        "N32"
+      ]
     }
   ],
   "reopen_when": [

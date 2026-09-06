@@ -28,7 +28,7 @@
       "default_in": [
         "full"
       ],
-      "catalog_count": 46
+      "catalog_count": 47
     },
     {
       "id": "PK4",
@@ -2962,6 +2962,19 @@
       "profile_changes_interval": false,
       "battery_variant_required": false,
       "source_component_id": "COO-15"
+    },
+    {
+      "id": "ELE-15",
+      "name": "eCall·비상통신 백업배터리",
+      "system": "저전압 전기·시동·편의",
+      "primary_pack": "PK3",
+      "applicability_text": "별도 비상통신 백업배터리 실제 장착 차량",
+      "applicability_gate": "장착확인된항목만추천_미확인은확인필요영역",
+      "observed_safety_issue_override": true,
+      "record_visible_regardless_of_profile": true,
+      "profile_changes_interval": false,
+      "battery_variant_required": true,
+      "source_component_id": "ELE-15"
     }
   ]
 }

@@ -1,0 +1,234 @@
+{
+  "schema_version": "1.0",
+  "horizon": {
+    "km": 500000,
+    "months": 300
+  },
+  "scope": "개인승용차_내연기관HEV_PHEV_BEV_LPG",
+  "catalog_count": 223,
+  "implementation_research_dependency": false,
+  "supported_operations": [
+    "등록",
+    "정비기록",
+    "자료확인",
+    "선택형예방일정",
+    "출처일정",
+    "정비결과기록",
+    "비용계획",
+    "알림"
+  ],
+  "vehicle_fields": {
+    "name": "free_text",
+    "fuel": [
+      "gasoline",
+      "diesel",
+      "LPG",
+      "none",
+      "unknown"
+    ],
+    "electrification": [
+      "none",
+      "HEV",
+      "PHEV",
+      "BEV",
+      "unknown"
+    ],
+    "transmission": [
+      "AT",
+      "CVT",
+      "wet_DCT",
+      "dry_DCT",
+      "MT",
+      "power_split",
+      "EV_reduction",
+      "unknown"
+    ],
+    "drive": [
+      "FWD",
+      "RWD",
+      "mechanical_AWD",
+      "electric_AWD",
+      "unknown"
+    ],
+    "timing": [
+      "belt",
+      "chain",
+      "none",
+      "unknown"
+    ],
+    "low_voltage_battery": [
+      "flooded",
+      "EFB",
+      "AGM",
+      "lithium",
+      "unknown"
+    ],
+    "fitment": [
+      "present",
+      "absent",
+      "unknown"
+    ]
+  },
+  "profile_binding": {
+    "identity": [
+      "vehicle_id",
+      "component_id",
+      "part_role",
+      "position",
+      "circuit_id"
+    ],
+    "required": [
+      "confirmed_by_user_or_workshop",
+      "service_profile",
+      "source_version"
+    ],
+    "rule": "대분류는항목필터일뿐. service_profile은실제시스템확인후선택. 모름은등록차단안함.",
+    "generic_fallback": "명시적사용자일정또는상태기록. 출처가없는공식교환주기를합성하지않음.",
+    "shared_fluid": "같은 circuit_id의동일액규격은하나의자산. 별도회로는같은탱크라도작업완료각각확인."
+  },
+  "professional_report_v1": {
+    "required": [
+      "asset_id",
+      "observed_at",
+      "author_role",
+      "classification",
+      "original_note"
+    ],
+    "classification": [
+      "normal",
+      "monitor",
+      "service_required",
+      "unsafe",
+      "undetermined"
+    ],
+    "author_role": [
+      "workshop",
+      "owner"
+    ],
+    "optional": [
+      "measurements",
+      "dtc",
+      "photos",
+      "recommended_action",
+      "next_review_date"
+    ],
+    "measurement": {
+      "required": [
+        "name",
+        "value",
+        "unit"
+      ],
+      "optional": [
+        "operator",
+        "limit",
+        "lower",
+        "upper",
+        "limit_unit",
+        "limit_source",
+        "part_number",
+        "test_conditions"
+      ],
+      "units": [
+        "mm",
+        "bar",
+        "kPa",
+        "MPa",
+        "V",
+        "A",
+        "ohm",
+        "MOhm",
+        "C",
+        "percent",
+        "rpm",
+        "mg_per_stroke",
+        "ml_per_min",
+        "custom"
+      ],
+      "operators": [
+        "lt",
+        "lte",
+        "gt",
+        "gte",
+        "outside"
+      ],
+      "numeric_failure_requires": [
+        "finite_value",
+        "matching_units",
+        "source_linked_limit",
+        "valid_bounds"
+      ],
+      "unknown_limit": "값과원문은저장하되합격/불량자동판정금지"
+    },
+    "safety": "정비사unsafe보고는즉시주의. 소유자정상보고나DTC없음으로안전인증하지않음. DTC단독으로특정부품교환확정금지.",
+    "display": "정비사가기재한판정과앱수치비교를별도표시. 단위충돌·상반된결과는확인필요."
+  },
+  "schedule_contract": {
+    "actions": [
+      "replace",
+      "inspect",
+      "clean",
+      "refill",
+      "adjust",
+      "lubricate"
+    ],
+    "clocks": "asset_id+action별",
+    "replacement_reset": "동일자산의실제replace완료만",
+    "initial_history": [
+      "original_since_new",
+      "replaced_with_record",
+      "unknown"
+    ],
+    "unknown_history": "기한을출고/중고구입일로날조하지않음_기초상태등록",
+    "first_repeat": "최초실제교환완료뒤반복주기. 청소·보충은전환하지않음.",
+    "source_date_origin": "원문이제조일이면제조일_이외정한출고일/실제정비일",
+    "user_alignment": "거리회차만_실제날짜와원문기한은유지",
+    "unit_conversion": "1mile=1.609344km_원문에km도있으면원문km우선",
+    "precedence": "선택거리와원문거리각각계산후더이른것_거리와기간OR",
+    "age_cap": "25년/50만km는예산기간이지그뒤사용금지나수명보증아님"
+  },
+  "notifications": {
+    "timezone": "Asia/Seoul",
+    "daily_window": "09:00-09:59",
+    "lead_km": 1000,
+    "lead_days": 30,
+    "operator": "OR",
+    "estimated_distance": "최근서로다른3개실측_90일미입력후거리예정일보류_날짜알림유지",
+    "dedupe": "asset_id+service_cycle+rule_version+stage; 규칙만변하고동일단계면중복억제"
+  },
+  "cost_contract": {
+    "parts": "수량×부품단가",
+    "labor": "정비업체견적작업별공임_동시정비중복노무한번",
+    "shared_work": "동일정비사건의공통공임ID만합산중복제거_차량간합치지않음",
+    "unknown_price": "0원으로표시하지않고미입력",
+    "bundle": "기한늦추기금지_동반교환은사용자승인후_교환기록자동생성금지"
+  },
+  "receipt_contract": {
+    "states": [
+      "draft",
+      "needs_confirmation",
+      "confirmed",
+      "rejected"
+    ],
+    "minimum": [
+      "vehicle_id",
+      "original_text_or_photo",
+      "date",
+      "action",
+      "component_or_unmapped",
+      "cost_if_present"
+    ],
+    "unmapped": "원문보존+사용자연결_허위정비항목생성금지",
+    "commit": "확인전원장과교환시계미변경",
+    "duplicates": "사진해시+업체/날짜/합계후보제시_자동삭제안함",
+    "amounts": "부품비/공임/세금/합계중복합산금지"
+  },
+  "out_of_scope_for_automatic_inference": [
+    "규격/부품호환성판정",
+    "조임토크",
+    "탈거절차",
+    "리콜완전성보증",
+    "사진만으로안전판정",
+    "미등록차량의제조사주기추정"
+  ],
+  "acceptance": "이파일과원문연결자료로개발자가조회/기록/일정/상태판정흐름을구현할수있다. 실제차량입력·정비사측정값은운영데이터이며개발중추가웹조사과제로남기지않는다."
+}

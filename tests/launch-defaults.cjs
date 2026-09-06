@@ -2,7 +2,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const root=path.resolve(__dirname,'..'),read=n=>JSON.parse(fs.readFileSync(path.join(root,'data',n+'.json'),'utf8'));
 const d=read('launch-defaults'),cs=read('components'),ps=read('policies'),vs=read('rule-variants'),bs=read('labor-bundles'),pr=read('preventive-planning').rules;
 let checks=0;const ok=x=>{checks++;assert.ok(x);},ids=x=>new Set(x.map(r=>r.id));
-ok(d.rows.length===222);ok(new Set(d.rows.map(r=>r.component_id)).size===222);
+ok(d.rows.length===223);ok(new Set(d.rows.map(r=>r.component_id)).size===223);
 const ci=ids(cs),pi=ids(ps),vi=ids(vs),bi=ids(bs),pri=ids(pr);
 for(const r of d.rows){
  ok(ci.has(r.component_id));ok(r.status==='확정');ok(r.criteria.length>10);

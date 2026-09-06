@@ -3114,5 +3114,18 @@
     "discovery_sources": [
       "C06"
     ]
+  },
+  {
+    "id": "ELE-15",
+    "system": "저전압 전기·시동·편의",
+    "component": "eCall·비상통신 백업배터리",
+    "applicability": "별도 비상통신 백업배터리 실제 장착 차량",
+    "policy_ids": [],
+    "decision": "구조별주기",
+    "trigger": "EV9 해당장착 48개월 교환; 다른 형식은 고장보고/사용자계획. 비상통화 버튼을 시험송신하지 않음.",
+    "bundle_ids": [],
+    "disposition": "운영방식확정_차량적용검증별도",
+    "evidence_note": "R04 정확한 장비 사례. 주 배터리와 별도 시계.",
+    "automatic_replacement": false
   }
 ]

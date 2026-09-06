@@ -2,6 +2,12 @@
 
 ## 상태 — 2026-09-06
 
+**최신 v1.1 인계:** [RESEARCH_GATE.md](docs/RESEARCH_GATE.md)가 아래 과거 완료표현에 우선한다. 임의 기본값30개를 재감사했고, 출처14건·조건부 사례32개·입력/판정 계약을 추가했다. eCall 백업배터리를 추가해223항목, 관리묶음48/98/47/30이다. 주기29 / 사건29 / 상태140 / 구조별25. 기존 조건부 사례20개도 유지한다.
+
+개발자는 launch-defaults와 implementation-rules, implementation-contract를 함께 사용한다. 무근거 기간을 채우거나 부품별 한계값을 웹에서 추정하는 작업은 요구하지 않는다. 실제 부품의 한계값과 정비사 판정은 운영 입력이며, 없으면 기록만 허용하고 정상/불량 자동판정을 하지 않는다. tests/research-gate.cjs 및 기존3검사 PASS. 앱/실차 검증은 미실행이다.
+
+## 이전 조사 이력 — 아래 숫자는 당시 상태
+
 공통 차량 생애주기 관리체계 사전조사 정리 및 [공개 GitHub 백업](https://github.com/fullmetalsonic/vehicle-lifecycle-manager) 완료. 원격 PUBLIC 상태와 최초 업로드 18개 파일의 Git 객체값 일치를 확인했다. 앱·영수증 인식·알림 서버는 이 저장소에서 구현/배포하지 않았다.
 
 ## 결과

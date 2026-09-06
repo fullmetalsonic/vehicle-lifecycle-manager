@@ -34,7 +34,7 @@ for(const r of closure.resolutions){
   for(const s of r.source_ids)ok(sourceIds.has(s));
   for(const id of r.rule_ids)ok(ruleMap.get(id)?.component_ids.includes(r.component_id));
 }
-ok(closure.coverage.length===222);ok(new Set(closure.coverage.map(x=>x.component_id)).size===222);
+ok(closure.coverage.length===223);ok(new Set(closure.coverage.map(x=>x.component_id)).size===223);
 for(const c of closure.coverage){
   ok(componentIds.has(c.component_id));ok(c.baseline_decision);
   const actual=data.rules.filter(r=>r.component_ids.includes(c.component_id)).map(r=>r.id);
