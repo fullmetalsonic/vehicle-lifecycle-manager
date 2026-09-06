@@ -18,6 +18,9 @@
 | preventive-planning.json | 22개 예방계획: 참고범위·선택값·상담/교환·작업상속 |
 | preventive-sources.json | 추가 출처 S52–S70. 공급사·제조사·정비업체 자료 구별 |
 | research-closure.json | 직전 미결14개 검토결론·기각이유와 222항목 연결표 |
+| launch-defaults.json | 최종 적용정책222개: 주기53 / 사건29 / 측정138 / 구조별2. 앱설계값과 원문값 분리 |
+
+구현 기준의 진입점은 launch-defaults.json이다. 과거 components.decision이나 연구종결 상태를 앱 기본값으로 직접 사용하지 않는다. mode와default_action, interval/review, criteria, subtype_rules를 함께 적용한다. 검사는 tests/launch-defaults.cjs로 재현한다.
 
 `reference_range_km`의 상한 `null`은 상한 미제시다. 0km나 고정수명으로 해석하지 않는다. `inherit_target`은 해당 차량의 실제 선택값이 확인되어야 활성화하며 상속 순환을 허용하지 않는다. 수치가 없다는 이유로 교환기한을 생성하지 않는다.
 
