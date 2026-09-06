@@ -1,0 +1,24 @@
+.entry-intro { padding: 4px 0 12px; }
+.entry-car { display: inline-flex; align-items: center; gap: 8px; color: var(--primary); font-size: .82rem; }
+.entry-car svg { width: 18px; }
+.entry-intro p { margin: 10px 0 4px; font-size: .77rem; color: var(--muted); }
+.record-option { gap: 12px; padding: 17px 13px; border-radius: 18px; }
+.record-option > span:nth-child(2) { flex: 1; }
+.record-option small { font-size: .69rem; margin-top: 4px; }
+.entry-icon { display: grid; place-items: center; width: 42px; height: 42px; flex-shrink: 0; border-radius: 14px; color: var(--primary); background: var(--primary-soft); }
+.entry-privacy { color: var(--muted); font-size: .7rem; line-height: 1.8; margin-top: 20px; }
+.photo-drop { text-align: center; border: 1px dashed #b5cdbd; background: var(--primary-soft); border-radius: var(--radius-card); padding: 28px 22px 22px; }
+.photo-drop > svg { width: 36px; height: 36px; color: var(--primary); }
+.photo-drop h3 { font-size: 1.2rem; margin: 15px 0 8px; }
+.photo-drop p { color: var(--muted); font-size: .72rem; margin: 8px 0 20px; }
+.receipt-preview { margin: 14px 0; border: 1px solid var(--line); background: white; border-radius: var(--radius-small); padding: 12px; }
+.receipt-preview summary { min-height: 44px; cursor: pointer; font-size: .78rem; overflow-wrap: anywhere; padding: 8px 0; }
+.receipt-preview img { display: block; width: 100%; height: auto; max-height: 290px; object-fit: contain; }
+.receipt-preview > p { font-size: .69rem; color: var(--muted); margin-top: 9px; }
+.duplicate-notice { border-left: 3px solid var(--warm-ink); background: var(--warm-soft); padding: 12px; font-size: .76rem; color: var(--warm-ink); }
+.item-options { margin: 14px 0 18px; }
+.item-options .option { justify-content: space-between; }
+.custom-item-form { border-top: 1px solid var(--line); padding-top: 20px; }
+.service-form textarea { width: 100%; min-height: 90px; padding: 12px; font: inherit; border: 1px solid #b4c6ba; border-radius: var(--radius-small); color: var(--ink); resize: vertical; }
+.record-note { white-space: pre-wrap; overflow-wrap: anywhere; }
+.ocr-item{padding:14px;margin:14px 0;border:1px solid var(--border,#dce5df);border-radius:14px}.ocr-item input:not([type=checkbox]),.ocr-item select{width:100%;box-sizing:border-box}.record-note{white-space:pre-wrap;word-break:break-word;max-width:100%}

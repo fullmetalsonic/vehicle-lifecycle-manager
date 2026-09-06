@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {parseReceipt} from './receipt-parser.js';
+const a=parseReceipt('정비완료일 2026-09-06\n주행거리 148,200 km\n엔진오일 교환\n오일필터 교환\n총액 100,000\n업체명: 가상 정비소');
+assert.equal(a.date,'2026-09-06');assert.equal(a.km,148200);assert.equal(a.cost,100000);assert.equal(a.items.length,2);
+assert.equal(parseReceipt('접수일 2026-01-01\n등록일 2020-01-01').date,'');
+assert.equal(parseReceipt('총액 100000\n포인트 20000').cost,null);
+assert.equal(parseReceipt('엔진오일 교환 권장').items.length,0);
+assert.equal(parseReceipt('엔진오일 점검').items[0].action,'inspect');
+assert.equal(parseReceipt('엔진오일 5L').items[0].action,'');
+assert.equal(parseReceipt('총액 10000\n총액 20000').cost,null);
+assert.equal(parseReceipt('부품 50000 공임 10000 소계 60000').cost,null);
+console.log('PASS: conservative receipt parsing, missing/ambiguous fields, suggestions versus performed actions, discounts');

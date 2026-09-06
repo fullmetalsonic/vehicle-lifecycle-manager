@@ -1,6 +1,10 @@
 # 차량 생애주기 관리 앱
 
-25년·50만 km 운행을 계획하는 개인용 차량관리 앱의 **사전조사·데이터 설계 자료**입니다. 실행 가능한 앱이나 배포된 서비스는 아직 없습니다.
+25년·50만 km 장기 운행을 돕는 Android **차량 노트**입니다. 정비 기록, 거리·기간 주기, 관리 묶음, 기기 내 영수증 OCR, 백업·복원과 알림을 제공합니다.
+
+**[Android 앱 다운로드](https://github.com/fullmetalsonic/vehicle-lifecycle-manager/releases/latest)** · [설치·사용·개인정보 안내](docs/PUBLIC_RELEASE.md) · [배포 검증](docs/RELEASE_VERIFICATION.md)
+
+자기 차량을 등록하는 빈 화면으로 시작합니다. 개발자의 차량·정비 원본·사진·개인값은 포함하지 않습니다. 기록은 기기에 보관하고, 영수증 인식 결과는 사용자가 확인한 뒤 저장합니다. 앱 위쪽 ‘앱 정보’에서 업데이트를 확인하거나 자동 확인을 끌 수 있습니다. 삭제·분실에 대비해 백업을 별도로 보관하세요.
 
 ## 확정한 범위
 
@@ -29,4 +33,4 @@
 
 ## 검증 재현
 
-Node.js에서 `node tests/research-gate.cjs`, `node tests/launch-defaults.cjs`, `node tests/preventive.cjs`, `node tests/validate.cjs`를 실행합니다. 외부 계정 없이 출처 연결·조건 격리·작업 시계·측정 단위·날짜·알림을 검사합니다. 실제 차량의 안전성 또는 아직 없는 앱의 작동을 입증하는 검사는 아닙니다.
+Node.js에서 `node tests/research-gate.cjs`, `node tests/launch-defaults.cjs`, `node tests/preventive.cjs`, `node tests/validate.cjs`로 연구 계약을, `node --test ui/*.test.mjs`로 앱 모델을 검사합니다. 실제 차량 안전성이나 모든 기기에서의 알림 도착을 보증하지는 않습니다. 앱 빌드 방법은 공개 배포 안내를 참조하세요.

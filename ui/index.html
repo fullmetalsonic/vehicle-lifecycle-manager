@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f8f4">
+  <title>차량 노트 · 동작하는 홈 시안</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="tokens.css">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="upcoming.css">
+  <link rel="stylesheet" href="record-entry.css">
+  <link rel="stylesheet" href="history.css">
+  <link rel="stylesheet" href="manage.css">
+</head>
+<body>
+  <aside class="preview-intro">
+    <span class="eyebrow">VEHICLE NOTE / UI 01</span>
+    <h1>내 차를 오래,<br>기록은 가볍게.</h1>
+    <p>다가오는 정비부터 지난 기록까지.<br>필요한 순간에, 필요한 만큼만.</p>
+    <div class="preview-info"><span class="preview-dot"></span>그림이 아닌 실제 화면 코드</div>
+    <p class="preview-caption">오른쪽 화면을 직접 눌러보세요.<br>차량 전환 · 정비 상세 · 주행거리 입력</p>
+    <div class="swatches" aria-label="미색, 청록, 옅은 주황 디자인 색상"><i></i><i></i><i></i></div>
+    <small>홈 화면 구성 검토용 · 실제 차계부와 연결되지 않음</small>
+  </aside>
+  <div class="app-shell">
+    <header class="app-header"><a href="#home" class="brand" aria-label="차량 노트 홈"><span class="brand-mark" aria-hidden="true">⌁</span>차량 노트</a><span class="demo-badge">예시 데이터</span></header>
+    <div class="vehicle-bar"><button id="vehicle-picker" class="vehicle-picker" aria-haspopup="dialog"></button><button class="icon-button" id="vehicle-info" aria-label="선택 차량 정보"></button></div>
+    <main id="main" tabindex="-1"></main>
+    <nav class="bottom-nav" aria-label="주요 화면"></nav>
+  </div>
+  <dialog id="sheet" aria-labelledby="sheet-title"><div class="sheet-heading"><h2 id="sheet-title"></h2><button id="sheet-close" class="icon-button" aria-label="닫기"></button></div><div id="sheet-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

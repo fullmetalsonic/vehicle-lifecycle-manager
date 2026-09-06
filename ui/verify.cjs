@@ -1,0 +1,26 @@
+const assert=require('node:assert/strict'),path=require('node:path'),fs=require('node:fs');
+const {chromium}=require(process.env.VEHICLE_PLAYWRIGHT_PATH||'playwright');
+(async()=>{const browser=await chromium.launch({headless:true});const p=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});const errors=[];p.on('pageerror',e=>errors.push(e.message));p.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+ const out=path.join(__dirname,'evidence');fs.mkdirSync(out,{recursive:true});
+ await p.goto('http://127.0.0.1:4178/',{waitUntil:'networkidle'});
+ await p.getByText('148,200',{exact:false}).first().waitFor();
+ assert.equal(await p.locator('.service-card').count(),2);
+ await p.screenshot({path:path.join(out,'home-390.png'),fullPage:true});
+ await p.locator('[data-service="oil"]').click();await p.getByRole('heading',{name:'엔진오일',exact:true}).waitFor();await p.screenshot({path:path.join(out,'service-detail-390.png')});await p.getByRole('button',{name:'닫기',exact:true}).click();
+ await p.locator('#vehicle-picker').click();await p.locator('[data-vehicle="sorento"]').click();assert.ok((await p.locator('.mileage-number').innerText()).includes('28,640'));
+ await p.locator('#vehicle-picker').click();await p.locator('[data-vehicle="new"]').click();assert.ok((await p.locator('#main').innerText()).includes('첫 기록을 남겨보세요'));await p.screenshot({path:path.join(out,'empty-390.png'),fullPage:true});
+ await p.locator('#vehicle-picker').click();await p.locator('[data-vehicle="santa"]').click();
+ await p.getByRole('button',{name:'주행거리 입력',exact:true}).click();await p.locator('#mileage').fill('100');await p.getByRole('button',{name:'예시 주행거리 반영'}).click();assert.ok((await p.locator('#mileage-error').innerText()).includes('147,600'));
+ await p.locator('#mileage').fill('148300');await p.getByRole('button',{name:'예시 주행거리 반영'}).click();assert.ok((await p.locator('.mileage-number').innerText()).includes('148,300'));assert.ok((await p.locator('#main').innerText()).includes('700 km 남음'));assert.equal(await p.locator('dialog[open]').count(),0);
+ await p.locator('[data-page="history"]').last().click();assert.ok((await p.locator('#main').innerText()).includes('정비 이력'));
+ await p.locator('[data-page="home"]').click();await p.locator('[data-page="add"]').click();assert.equal(await p.locator('[data-entry]').count(),4);assert.equal(await p.locator('dialog button:disabled').count(),0);await p.keyboard.press('Escape');
+ await p.reload();assert.ok((await p.locator('.mileage-number').innerText()).includes('148,200'));
+ const fits=()=>document.documentElement.scrollWidth<=innerWidth&&document.querySelector('main').scrollWidth<=document.querySelector('main').clientWidth;
+ const widths=[360,390,430,768,1280];for(const width of widths){await p.setViewportSize({width,height:900});assert.ok(await p.evaluate(fits),`overflow at ${width}`);}
+ await p.screenshot({path:path.join(out,'desktop-1280.png'),fullPage:true});
+ await p.setViewportSize({width:360,height:800});await p.screenshot({path:path.join(out,'home-360.png'),fullPage:true});
+ await p.evaluate(()=>document.documentElement.style.fontSize='200%');assert.ok(await p.evaluate(fits),'200% font overflow');await p.screenshot({path:path.join(out,'font-200.png'),fullPage:true});
+ await p.locator('.spend-card').scrollIntoViewIfNeeded();assert.ok(await p.evaluate(()=>document.querySelector('.spend-card').getBoundingClientRect().bottom<=document.querySelector('nav').getBoundingClientRect().top+1),'bottom content covered');
+ if(process.env.VEHICLE_UI_COMPARE==='1')for(const name of ['home-390.png','desktop-1280.png'])assert.ok(fs.readFileSync(path.join(out,name)).equals(fs.readFileSync(path.join(__dirname,'baselines',name))),`visual baseline changed: ${name}`);
+ assert.deepEqual(errors,[]);console.log(JSON.stringify({result:'PASS',widths,largeText:'200%',consoleErrors:errors,flows:['detail','vehicle switch','empty state','invalid mileage','valid mileage','navigation','demo-only input','reload reset'],screenshots:out}));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1);});

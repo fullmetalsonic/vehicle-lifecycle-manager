@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {vehicles} from './demo-data.js';
+import {initializePlans,allServices,timeline,alignedCandidate,addMonths,sync,validateRecord,commitRecord} from './schedule.js';
+initializePlans(vehicles);const v=vehicles[0],s=v.services[0];
+assert.equal(timeline(v,s).status,'soon');assert.equal(timeline(v,v.services[1]).days,24);
+assert.equal(timeline(v,v.planned[0]).status,'later');assert.equal(timeline(v,v.planned[1]).status,'unknown');
+assert.equal(addMonths('2024-02-29',12),'2025-02-28');assert.equal(addMonths('2026-01-31',1),'2026-02-28');assert.throws(()=>addMonths('2026-02-31',1));
+assert.equal(alignedCandidate(149500,10000),150000);assert.equal(alignedCandidate(147000,10000),null);assert.equal(alignedCandidate(49500,50000),50000);
+const stopped={points:[['2026-08-01',149001],['2026-09-06',149001]]};assert.equal(timeline(stopped,s).status,'overdue');assert.equal(timeline(stopped,s).text,'1 km 초과');
+const ref=sync({...s,lastKm:49500,lastDate:'2026-01-01',basisKm:50000,intervalKm:50000,referenceKm:50000});assert.equal(timeline(v,ref).target,99500);assert.equal(ref.target,100000);
+const draft={date:'2026-09-06',km:149500,cost:null,action:'replace',aligned:true,companions:[]};
+for(const patch of [{date:'2026-09-07'},{date:'2026-02-31'},{km:100},{km:NaN},{cost:-1},{cost:.5},{action:'invalid'},{km:147000}])assert.ok(validateRecord(v,s,{...draft,...patch}));
+const oldOther=JSON.stringify(vehicles[1]),before=JSON.parse(JSON.stringify(v));
+commitRecord(v,s,draft);assert.equal(s.lastKm,149500);assert.equal(s.basisKm,150000);assert.equal(s.target,160000);assert.equal(s.date,'2027-09-06');assert.equal(v.history[0].cost,null);assert.equal(v.yearCost,620000);assert.equal(JSON.stringify(vehicles[1]),oldOther);
+const brake=v.services[1],oldBrake=JSON.stringify(brake);commitRecord(v,brake,{...draft,aligned:false,action:'inspect',cost:10000});assert.equal(JSON.stringify(brake),oldBrake);assert.equal(v.yearCost,630000);
+const b=before.services[0],past={date:'2025-10-01',km:135000,cost:90000,action:'replace',aligned:false,companions:[]};const target=b.target;assert.equal(validateRecord(before,b,past),null);commitRecord(before,b,past);assert.equal(b.target,target);assert.equal(before.yearCost,620000);
+assert.equal(allServices(v).length,4);console.log('PASS: schedule state, date/odometer validation, alignment, reference deadline, non-replacement, backdated record, vehicle isolation');

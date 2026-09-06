@@ -1,0 +1,1 @@
+module.exports=async function reveal(page,selector){const button=page.locator(selector);const fold=button.locator('xpath=ancestor::details[1]');if(await fold.count()&&!await fold.evaluate(e=>e.open))await fold.locator('summary').first().click();await button.click();};

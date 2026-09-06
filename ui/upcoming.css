@@ -1,0 +1,46 @@
+.schedule-heading { padding: 14px 0 20px; }
+.schedule-heading .eyebrow { color: var(--primary); font-size: .62rem; letter-spacing: 2px; }
+.schedule-heading .page-heading { font-size: 1.48rem; line-height: 1.45; margin: 10px 0; }
+.schedule-heading > p { color: var(--muted); font-size: .7rem; }
+.schedule-summary { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 14px; padding: 19px 20px; background: var(--primary-soft); border-radius: var(--radius-card); }
+.schedule-summary > span:first-child { font-size: .8rem; flex: 1; }
+.schedule-summary strong { color: var(--primary); font-size: 1.65rem; line-height: 1; }
+.schedule-summary strong small { font-size: .74rem; font-weight: 500; margin-left: 4px; }
+.summary-hint { width: 100%; color: var(--muted); font-size: .68rem; }
+.schedule-filters { display: flex; flex-wrap: wrap; gap: 6px; padding: 20px 0 10px; }
+.schedule-filters button { border-radius: 22px; padding: 8px 15px; font-size: .76rem; color: var(--muted); border: 1px solid var(--line); background: var(--surface); }
+.schedule-filters button[aria-pressed="true"] { color: white; background: var(--primary); border-color: var(--primary); }
+.schedule-group { margin-top: 18px; }
+.schedule-group h2 { font-size: .84rem; margin-bottom: 10px; font-weight: 650; }
+.schedule-group h2 > span { color: var(--muted); margin-left: 4px; font-weight: 400; }
+.upcoming-card { padding: 18px 13px; gap: 11px; }
+.upcoming-card-title { display: flex; flex-wrap: wrap; gap: 5px 8px; align-items: center; }
+.stage { display: inline-block; border-radius: 6px; padding: 2px 6px; font-size: .58rem; color: #52675d; background: #edf0e9; font-weight: 500; }
+.stage.soon { color: var(--warm-ink); background: var(--warm-soft); }
+.stage.overdue { color: var(--danger); background: #f9eae7; }
+.stage.unknown { color: #657064; background: #f1f2ed; }
+.upcoming-card:has(.stage.overdue) .remaining { color: var(--danger); }
+.upcoming-card:has(.stage.later) .remaining,.upcoming-card:has(.stage.unknown) .remaining { color: var(--primary); }
+.period-line { display: block; border-top: 1px solid var(--line); margin-top: 9px; padding-top: 7px; font-size: .65rem; color: var(--muted); }
+.schedule-empty { margin-top: 18px; }
+.detail-vehicle { color: var(--muted); font-size: .72rem; margin-bottom: 14px; }
+.schedule-detail-hero { border-radius: var(--radius-card); background: var(--primary-soft); padding: 20px; }
+.schedule-detail-hero h3 { margin-top: 9px; font-size: 1.45rem; letter-spacing: -.6px; }
+.schedule-detail-hero > p { margin-top: 5px; font-size: .74rem; color: var(--muted); }
+.detail-fold { border-bottom: 1px solid var(--line); padding: 4px 0; }
+.detail-fold summary { min-height: 44px; padding: 11px 0; font-size: .82rem; font-weight: 600; cursor: pointer; }
+.detail-fold > p { font-size: .75rem; color: var(--muted); padding: 3px 0 12px; }
+.detail-fold .detail-list { margin: 0 0 10px; }
+.detail-actions { padding-top: 22px; }
+dialog .sheet-heading { position: sticky; top: -22px; background: var(--bg); z-index: 2; }
+.service-form { margin-top: 10px; }
+.service-form input,.service-form select { font-size: 1rem; margin-bottom: 13px; }
+.service-form select { width: 100%; min-height: 50px; border: 1px solid #b4c6ba; border-radius: var(--radius-small); padding: 10px; background: white; color: var(--ink); font: inherit; }
+.service-form .field-help { font-size: .72rem; color: var(--muted); margin: -5px 0 14px; }
+.service-form .check-option { display: flex; align-items: flex-start; gap: 10px; font-size: .78rem; font-weight: 400; min-height: 44px; padding: 10px 0; }
+.service-form .check-option input { width: 19px; min-height: 19px; height: 19px; margin: 3px 0 0; flex-shrink: 0; accent-color: var(--primary); }
+.live-preview { border: 1px solid #dbe6dc; border-radius: var(--radius-small); background: var(--primary-soft); padding: 14px; margin: 12px 0; font-size: .77rem; overflow-wrap: anywhere; }
+.live-preview strong { display: block; margin-bottom: 4px; }
+.reference-warning { color: var(--warm-ink)!important; }
+.undo-strip { margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 14px; border-radius: var(--radius-small); background: var(--primary-soft); font-size: .75rem; }
+.undo-strip button { color: var(--primary); font-weight: 600; white-space: nowrap; }

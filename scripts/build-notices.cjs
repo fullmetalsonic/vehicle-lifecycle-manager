@@ -1,0 +1,8 @@
+const fs=require('node:fs'),path=require('node:path');
+const root=path.resolve(__dirname,'..'),packages=JSON.parse(fs.readFileSync(path.join(root,'package-lock.json'),'utf8')).packages;
+const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+let text='<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>오픈소스 고지</title><style>body{font:16px sans-serif;padding:20px;max-width:900px;margin:auto}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style><h1>오픈소스 고지</h1><p>차량 노트는 Capacitor, Tesseract.js와 AndroidX 등을 사용합니다. 각 구성요소의 저작권은 해당 저작권자에게 있습니다.</p>';
+for(const [folder,pkg]of Object.entries(packages)){if(!folder||pkg.dev)continue;const dir=path.join(root,folder);if(!fs.existsSync(dir))continue;const files=fs.readdirSync(dir).filter(n=>/^(licen[sc]e|notice|copying)(\.|$)/i.test(n)&&fs.statSync(path.join(dir,n)).isFile());text+='<h2>'+esc(folder.replace(/^node_modules\//,''))+'</h2><p>'+esc(pkg.version+' · '+(pkg.license||'See upstream license'))+'</p>';for(const file of files)text+='<pre>'+esc(fs.readFileSync(path.join(dir,file),'utf8'))+'</pre>';}
+text+='<h2>AndroidX / Android support libraries</h2><p>Copyright The Android Open Source Project. Apache License 2.0.</p><h2>Tesseract language data</h2><p>Tesseract OCR contributors. Apache License 2.0. npm language wrappers: MIT; see naptha/tessdata.</p><p><a href="https://github.com/tesseract-ocr/tessdata/blob/main/LICENSE">Tesseract data license</a> · <a href="https://github.com/naptha/tessdata">Language package source</a></p></html>';
+fs.writeFileSync(path.join(root,'ui/third-party.html'),text);
+console.log('Generated third-party notices from installed production packages.');

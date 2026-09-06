@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import {auditCatalog,auditVehicle} from './readiness-audit.js';
+import {sync,timeline} from './schedule.js';
+import {estimate} from './demo-data.js';
+import {notificationPlan} from './notifications.js';
+import {profiles} from './research-profiles.js';
+import {sourceRule,setRule} from './rule-model.js';
+const vehicle=(points)=>({id:'synthetic',name:'가상',meta:'시험',points,services:[],history:[],yearCost:null,notificationEnabled:true});
+const service=()=>sync({id:'oil',name:'엔진오일',lastDate:'2026-01-01',lastKm:0,intervalKm:10000,intervalMonths:null});
+test('223개 정책·52개 프로필·15개 공임묶음 무결성',()=>{const audit=auditCatalog();assert.deepEqual(audit.errors,[]);assert.deepEqual(audit.counts,{items:223,numericProposal:29,scopedProfiles:52,laborBundles:15,packs:4});for(const p of profiles)setRule({id:'test',name:'test'},sourceRule(p));});
+test('알림을 꺼도 거리/기간 계산은 유지하고 발송만 제외',()=>{const v=vehicle([['2026-01-01',0],['2026-02-01',9500]]),s=service();s.enabled=false;v.services=[s];assert.equal(timeline(v,s,'2026-02-01').status,'soon');assert.equal(notificationPlan([v],'2026-02-01',10).entries.length,0);});
+test('90일 이후 추정은 중지하지만 이미 실측으로 넘은 기한은 유지',()=>{const v=vehicle([['2026-01-01',0],['2026-02-01',11000]]),s=service();v.services=[s];const t=timeline(v,s,'2026-09-07');assert.equal(estimate(v,'2026-09-07').km,null);assert.equal(t.status,'overdue');assert.equal(t.km,-1000);assert.equal(t.measuredOnly,true);assert.equal(t.eta,null);assert.equal(t.projected,null);assert.ok(notificationPlan([v],'2026-09-07',2).entries.some(e=>e.stage==='overdue'));});
+test('오래된 실측 미도래·충돌은 초과로 추정하지 않음',()=>{const v=vehicle([['2026-01-01',0],['2026-02-01',9000]]),s=service();assert.equal(timeline(v,s,'2026-09-07').status,'unknown');v.points[1][1]=11000;v.odometerConflict=true;assert.equal(timeline(v,s,'2026-09-07').status,'unknown');});
+test('최근 세 날짜 창을 이동하고 미래 실측은 제외',()=>{const v=vehicle([['2026-01-01',0],['2026-01-11',1000],['2026-01-21',3000],['2026-01-31',6000],['2027-01-01',999999]]);assert.equal(estimate(v,'2026-02-01').rate,250);assert.equal(estimate(v,'2026-02-01').km,6250);});
+test('기간 OR·월말·윤년·최초 반복·더 이른 원문 기준',()=>{let s=sync({id:'x',name:'x',lastDate:'2024-02-29',lastKm:49500,basisKm:50000,intervalKm:10000,intervalMonths:12,referenceKm:9000});const v=vehicle([['2025-02-28',50000]]);assert.equal(s.date,'2025-02-28');assert.equal(timeline(v,s,'2025-02-28').sourceKm,58500);assert.equal(timeline(v,s,'2025-03-01').status,'overdue');s=sync({...s,lastDate:null,lastKm:null,basisKm:null,inServiceDate:'2020-01-01',inServiceKm:0,firstIntervalKm:100000,firstIntervalMonths:120});assert.equal(s.target,100000);s=sync({...s,lastDate:'2026-01-01',lastKm:100000,basisKm:100000});assert.equal(s.target,110000);});
+test('PC 분석은 설정이나 원본을 수정하지 않음',()=>{const v=vehicle([['2026-01-01',0]]);v.services=[service()];const before=JSON.stringify(v);const audit=auditVehicle(v,'2026-09-07');assert.equal(JSON.stringify(v),before);assert.equal(audit.notLiveDeviceState,true);assert.equal(audit.rows[0].id,'oil');});
