@@ -143,3 +143,11 @@ input { width: 100%; border: 1px solid #b4c6ba; border-radius: var(--radius-smal
 .first-steps div{display:flex;flex-wrap:wrap;gap:6px}.first-steps button{background:var(--primary-soft);border-radius:10px;padding:8px 12px;font-size:.78rem;flex:1 1 120px}
 .setup-reminder{display:block;width:100%;text-align:left;padding:12px 14px;margin:12px 0;background:white;border:1px solid var(--line);border-radius:var(--radius-small)}
 .setup-reminder span{display:block;font-size:.82rem;font-weight:700;color:var(--primary)}.setup-reminder small{display:block;font-size:.74rem;color:var(--muted);margin-top:4px}
+.real-app .form-error:empty,.real-app .live-preview:empty{display:none}
+.real-app .entry-intro{margin-bottom:8px}
+.real-app .detail-list dd{overflow-wrap:anywhere;min-width:0}
+.real-app #profile-description{overflow-wrap:anywhere}
+.real-app #profile-description a{text-decoration:underline}
+.real-app .detail-fold>summary,.real-app #sheet-body details>summary{min-height:44px;display:list-item;padding-block:11px;cursor:pointer}
+.real-app #sheet-body .check-option{display:flex;align-items:center;gap:10px;min-height:44px}
+.real-app #sheet-body .check-option input[type=checkbox]{width:20px;height:20px;min-height:20px;margin:0;flex:0 0 20px;accent-color:var(--primary)}

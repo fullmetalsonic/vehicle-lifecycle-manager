@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {revisionSummary,profileDescription} from './readable-details.js';
+import {profiles,sources} from './research-profiles.js';
+test('Revision labels preserve values without internal JSON',()=>{const result=revisionSummary({date:'2026-01-01',km:49500,cost:0,action:'replace',alignedKm:50000});assert.match(result,/49,500 km/);assert.match(result,/50,000 km/);assert.match(result,/0원/);assert.match(result,/교환/);assert.ok(!result.includes('alignedKm'));assert.match(revisionSummary({cost:null}),/미입력/);});
+test('All profiles render selected and source periods without altering source',()=>{for(const profile of profiles){const before=JSON.stringify(profile),html=profileDescription(profile,sources);assert.ok(html.includes('적용 대상'));assert.ok(html.includes('원문 기준'));assert.ok(!html.includes('selected_km'));assert.equal(JSON.stringify(profile),before);if(profile.first)assert.ok(html.includes('최초 원문 기준'));}});
+test('Profile text is escaped',()=>{const html=profileDescription({scope:'<script>bad</script>',selected_km:10000,selected_months:12});assert.ok(!html.includes('<script>'));assert.ok(html.includes('&lt;script&gt;'));});

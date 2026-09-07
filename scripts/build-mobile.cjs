@@ -16,7 +16,7 @@ const copyText=[
  ['예시 데이터','내 기록'],
  ['예시 ',''],['시안','초기 앱'],['화면 설명용 예시','사용자 기록 기준']
 ];
-for(const f of fs.readdirSync(ui))if(/\.(html|css|js)$/.test(f)&&!f.includes('.test.')){let text=fs.readFileSync(path.join(ui,f),'utf8');for(const [from,to]of copyText)text=text.replaceAll(from,to);if(f==='runtime.js')text=text.replace(/export const APP_MODE=.*?;/,'export const APP_MODE=true;');if(f==='demo-data.js')text=text.replace(/export const vehicles = \[[\s\S]*?\n\];/,'export const vehicles = [];');fs.writeFileSync(path.join(out,f),text);}
+for(const f of fs.readdirSync(ui))if(/\.(html|css|js)$/.test(f)&&!f.includes('.test.')){let text=fs.readFileSync(path.join(ui,f),'utf8');for(const [from,to]of copyText)text=text.replaceAll(from,to);if(f==='index.html')text=text.replace(/<span class="demo-badge">[\s\S]*?<\/span>/,'');if(f==='runtime.js')text=text.replace(/export const APP_MODE=.*?;/,'export const APP_MODE=true;');if(f==='demo-data.js')text=text.replace(/export const vehicles = \[[\s\S]*?\n\];/,'export const vehicles = [];');fs.writeFileSync(path.join(out,f),text);}
 fs.cpSync(path.join(ui,'vendor'),path.join(out,'vendor'),{recursive:true});
 for(const lang of ['kor','eng']){const obsolete=path.join(out,'vendor/ocr',lang+'.traineddata.gz');if(fs.existsSync(obsolete))fs.unlinkSync(obsolete);}
 fs.copyFileSync(path.join(root,'node_modules/@capacitor/core/dist/index.js'),path.join(out,'vendor/capacitor.js'));
